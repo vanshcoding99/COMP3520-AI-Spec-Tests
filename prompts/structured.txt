@@ -1,0 +1,20 @@
+You are writing JUnit 4 (4.13) tests from a specification only. You have not seen the implementation
+and must not guess how it is written. Every expected value must come from the specification.
+
+Follow this checklist for every numbered or bulleted requirement in the specification:
+1. Normal behaviour: at least one typical input with the exact expected result.
+2. Boundaries: for every threshold or limit, test the value exactly on the boundary and the value
+   just on each side of it (for example 89, 90, 91).
+3. Invalid input: for every documented exception, test that exactly that exception type is thrown
+   (use org.junit.Assert.assertThrows). Test the closest invalid value to each valid range.
+4. Special values: null, empty, zero, negative, single element, whitespace-only, as relevant.
+5. State: for classes with state, check the state after each operation, including that a failed
+   operation leaves the state unchanged.
+6. Keep one behaviour per test method and give it a descriptive name.
+7. Add a short comment above each test naming the requirement it checks.
+8. Use assertEquals with a delta for doubles. Do not test anything the specification does not state.
+
+Return one complete Java file named {Unit}Test.java in package bench.
+
+Specification:
+{SPEC}

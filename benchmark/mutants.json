@@ -1,0 +1,3672 @@
+[
+ {
+  "id": "ArrayMax-M01",
+  "unit": "ArrayMax",
+  "op": "ROR",
+  "offset": 101,
+  "old": "==",
+  "new": "!=",
+  "line": 5,
+  "desc": "ROR line 5: '==' -> '!='"
+ },
+ {
+  "id": "ArrayMax-M02",
+  "unit": "ArrayMax",
+  "op": "ROR",
+  "offset": 126,
+  "old": "==",
+  "new": "<=",
+  "line": 5,
+  "desc": "ROR line 5: '==' -> '<='"
+ },
+ {
+  "id": "ArrayMax-M03",
+  "unit": "ArrayMax",
+  "op": "ROR",
+  "offset": 126,
+  "old": "==",
+  "new": ">=",
+  "line": 5,
+  "desc": "ROR line 5: '==' -> '>='"
+ },
+ {
+  "id": "ArrayMax-M04",
+  "unit": "ArrayMax",
+  "op": "ROR",
+  "offset": 126,
+  "old": "==",
+  "new": "!=",
+  "line": 5,
+  "desc": "ROR line 5: '==' -> '!='"
+ },
+ {
+  "id": "ArrayMax-M05",
+  "unit": "ArrayMax",
+  "op": "ROR",
+  "offset": 126,
+  "old": "==",
+  "new": "<",
+  "line": 5,
+  "desc": "ROR line 5: '==' -> '<'"
+ },
+ {
+  "id": "ArrayMax-M06",
+  "unit": "ArrayMax",
+  "op": "ROR",
+  "offset": 126,
+  "old": "==",
+  "new": ">",
+  "line": 5,
+  "desc": "ROR line 5: '==' -> '>'"
+ },
+ {
+  "id": "ArrayMax-M07",
+  "unit": "ArrayMax",
+  "op": "CRP",
+  "offset": 129,
+  "old": "0",
+  "new": "1",
+  "line": 5,
+  "desc": "CRP line 5: '0' -> '1'"
+ },
+ {
+  "id": "ArrayMax-M08",
+  "unit": "ArrayMax",
+  "op": "ROR",
+  "offset": 276,
+  "old": "<",
+  "new": "<=",
+  "line": 9,
+  "desc": "ROR line 9: '<' -> '<='"
+ },
+ {
+  "id": "ArrayMax-M09",
+  "unit": "ArrayMax",
+  "op": "ROR",
+  "offset": 276,
+  "old": "<",
+  "new": ">=",
+  "line": 9,
+  "desc": "ROR line 9: '<' -> '>='"
+ },
+ {
+  "id": "ArrayMax-M10",
+  "unit": "ArrayMax",
+  "op": "ROR",
+  "offset": 276,
+  "old": "<",
+  "new": "==",
+  "line": 9,
+  "desc": "ROR line 9: '<' -> '=='"
+ },
+ {
+  "id": "ArrayMax-M11",
+  "unit": "ArrayMax",
+  "op": "ROR",
+  "offset": 276,
+  "old": "<",
+  "new": "!=",
+  "line": 9,
+  "desc": "ROR line 9: '<' -> '!='"
+ },
+ {
+  "id": "ArrayMax-M12",
+  "unit": "ArrayMax",
+  "op": "ROR",
+  "offset": 276,
+  "old": "<",
+  "new": ">",
+  "line": 9,
+  "desc": "ROR line 9: '<' -> '>'"
+ },
+ {
+  "id": "ArrayMax-M13",
+  "unit": "ArrayMax",
+  "op": "ROR",
+  "offset": 326,
+  "old": ">",
+  "new": "<=",
+  "line": 10,
+  "desc": "ROR line 10: '>' -> '<='"
+ },
+ {
+  "id": "ArrayMax-M14",
+  "unit": "ArrayMax",
+  "op": "ROR",
+  "offset": 326,
+  "old": ">",
+  "new": ">=",
+  "line": 10,
+  "desc": "ROR line 10: '>' -> '>='"
+ },
+ {
+  "id": "ArrayMax-M15",
+  "unit": "ArrayMax",
+  "op": "ROR",
+  "offset": 326,
+  "old": ">",
+  "new": "==",
+  "line": 10,
+  "desc": "ROR line 10: '>' -> '=='"
+ },
+ {
+  "id": "ArrayMax-M16",
+  "unit": "ArrayMax",
+  "op": "ROR",
+  "offset": 326,
+  "old": ">",
+  "new": "!=",
+  "line": 10,
+  "desc": "ROR line 10: '>' -> '!='"
+ },
+ {
+  "id": "ArrayMax-M17",
+  "unit": "ArrayMax",
+  "op": "ROR",
+  "offset": 326,
+  "old": ">",
+  "new": "<",
+  "line": 10,
+  "desc": "ROR line 10: '>' -> '<'"
+ },
+ {
+  "id": "ArrayMax-M18",
+  "unit": "ArrayMax",
+  "op": "CRP",
+  "offset": 246,
+  "old": "0",
+  "new": "1",
+  "line": 8,
+  "desc": "CRP line 8: '0' -> '1'"
+ },
+ {
+  "id": "ArrayMax-M19",
+  "unit": "ArrayMax",
+  "op": "CRP",
+  "offset": 271,
+  "old": "1",
+  "new": "2",
+  "line": 9,
+  "desc": "CRP line 9: '1' -> '2'"
+ },
+ {
+  "id": "ArrayMax-M20",
+  "unit": "ArrayMax",
+  "op": "CRP",
+  "offset": 271,
+  "old": "1",
+  "new": "0",
+  "line": 9,
+  "desc": "CRP line 9: '1' -> '0'"
+ },
+ {
+  "id": "BankAccount-M01",
+  "unit": "BankAccount",
+  "op": "ROR",
+  "offset": 196,
+  "old": "<=",
+  "new": ">=",
+  "line": 11,
+  "desc": "ROR line 11: '<=' -> '>='"
+ },
+ {
+  "id": "BankAccount-M02",
+  "unit": "BankAccount",
+  "op": "ROR",
+  "offset": 196,
+  "old": "<=",
+  "new": "==",
+  "line": 11,
+  "desc": "ROR line 11: '<=' -> '=='"
+ },
+ {
+  "id": "BankAccount-M03",
+  "unit": "BankAccount",
+  "op": "ROR",
+  "offset": 196,
+  "old": "<=",
+  "new": "!=",
+  "line": 11,
+  "desc": "ROR line 11: '<=' -> '!='"
+ },
+ {
+  "id": "BankAccount-M04",
+  "unit": "BankAccount",
+  "op": "ROR",
+  "offset": 196,
+  "old": "<=",
+  "new": "<",
+  "line": 11,
+  "desc": "ROR line 11: '<=' -> '<'"
+ },
+ {
+  "id": "BankAccount-M05",
+  "unit": "BankAccount",
+  "op": "ROR",
+  "offset": 196,
+  "old": "<=",
+  "new": ">",
+  "line": 11,
+  "desc": "ROR line 11: '<=' -> '>'"
+ },
+ {
+  "id": "BankAccount-M06",
+  "unit": "BankAccount",
+  "op": "CRP",
+  "offset": 130,
+  "old": "0",
+  "new": "1",
+  "line": 7,
+  "desc": "CRP line 7: '0' -> '1'"
+ },
+ {
+  "id": "BankAccount-M07",
+  "unit": "BankAccount",
+  "op": "CRP",
+  "offset": 199,
+  "old": "0",
+  "new": "1",
+  "line": 11,
+  "desc": "CRP line 11: '0' -> '1'"
+ },
+ {
+  "id": "BankAccount-M08",
+  "unit": "BankAccount",
+  "op": "ROR",
+  "offset": 385,
+  "old": "<=",
+  "new": ">=",
+  "line": 18,
+  "desc": "ROR line 18: '<=' -> '>='"
+ },
+ {
+  "id": "BankAccount-M09",
+  "unit": "BankAccount",
+  "op": "ROR",
+  "offset": 385,
+  "old": "<=",
+  "new": "==",
+  "line": 18,
+  "desc": "ROR line 18: '<=' -> '=='"
+ },
+ {
+  "id": "BankAccount-M10",
+  "unit": "BankAccount",
+  "op": "ROR",
+  "offset": 385,
+  "old": "<=",
+  "new": "!=",
+  "line": 18,
+  "desc": "ROR line 18: '<=' -> '!='"
+ },
+ {
+  "id": "BankAccount-M11",
+  "unit": "BankAccount",
+  "op": "ROR",
+  "offset": 385,
+  "old": "<=",
+  "new": "<",
+  "line": 18,
+  "desc": "ROR line 18: '<=' -> '<'"
+ },
+ {
+  "id": "BankAccount-M12",
+  "unit": "BankAccount",
+  "op": "ROR",
+  "offset": 385,
+  "old": "<=",
+  "new": ">",
+  "line": 18,
+  "desc": "ROR line 18: '<=' -> '>'"
+ },
+ {
+  "id": "BankAccount-M13",
+  "unit": "BankAccount",
+  "op": "CRP",
+  "offset": 388,
+  "old": "0",
+  "new": "1",
+  "line": 18,
+  "desc": "CRP line 18: '0' -> '1'"
+ },
+ {
+  "id": "BankAccount-M14",
+  "unit": "BankAccount",
+  "op": "ROR",
+  "offset": 500,
+  "old": ">",
+  "new": "<=",
+  "line": 21,
+  "desc": "ROR line 21: '>' -> '<='"
+ },
+ {
+  "id": "BankAccount-M15",
+  "unit": "BankAccount",
+  "op": "ROR",
+  "offset": 500,
+  "old": ">",
+  "new": ">=",
+  "line": 21,
+  "desc": "ROR line 21: '>' -> '>='"
+ },
+ {
+  "id": "BankAccount-M16",
+  "unit": "BankAccount",
+  "op": "ROR",
+  "offset": 500,
+  "old": ">",
+  "new": "==",
+  "line": 21,
+  "desc": "ROR line 21: '>' -> '=='"
+ },
+ {
+  "id": "BankAccount-M17",
+  "unit": "BankAccount",
+  "op": "ROR",
+  "offset": 500,
+  "old": ">",
+  "new": "!=",
+  "line": 21,
+  "desc": "ROR line 21: '>' -> '!='"
+ },
+ {
+  "id": "BankAccount-M18",
+  "unit": "BankAccount",
+  "op": "ROR",
+  "offset": 500,
+  "old": ">",
+  "new": "<",
+  "line": 21,
+  "desc": "ROR line 21: '>' -> '<'"
+ },
+ {
+  "id": "BinarySearch-M01",
+  "unit": "BinarySearch",
+  "op": "ROR",
+  "offset": 118,
+  "old": "==",
+  "new": "!=",
+  "line": 5,
+  "desc": "ROR line 5: '==' -> '!='"
+ },
+ {
+  "id": "BinarySearch-M02",
+  "unit": "BinarySearch",
+  "op": "ROR",
+  "offset": 287,
+  "old": "<=",
+  "new": ">=",
+  "line": 10,
+  "desc": "ROR line 10: '<=' -> '>='"
+ },
+ {
+  "id": "BinarySearch-M03",
+  "unit": "BinarySearch",
+  "op": "ROR",
+  "offset": 287,
+  "old": "<=",
+  "new": "==",
+  "line": 10,
+  "desc": "ROR line 10: '<=' -> '=='"
+ },
+ {
+  "id": "BinarySearch-M04",
+  "unit": "BinarySearch",
+  "op": "ROR",
+  "offset": 287,
+  "old": "<=",
+  "new": "!=",
+  "line": 10,
+  "desc": "ROR line 10: '<=' -> '!='"
+ },
+ {
+  "id": "BinarySearch-M05",
+  "unit": "BinarySearch",
+  "op": "ROR",
+  "offset": 287,
+  "old": "<=",
+  "new": "<",
+  "line": 10,
+  "desc": "ROR line 10: '<=' -> '<'"
+ },
+ {
+  "id": "BinarySearch-M06",
+  "unit": "BinarySearch",
+  "op": "ROR",
+  "offset": 287,
+  "old": "<=",
+  "new": ">",
+  "line": 10,
+  "desc": "ROR line 10: '<=' -> '>'"
+ },
+ {
+  "id": "BinarySearch-M07",
+  "unit": "BinarySearch",
+  "op": "ROR",
+  "offset": 366,
+  "old": "==",
+  "new": "<=",
+  "line": 12,
+  "desc": "ROR line 12: '==' -> '<='"
+ },
+ {
+  "id": "BinarySearch-M08",
+  "unit": "BinarySearch",
+  "op": "ROR",
+  "offset": 366,
+  "old": "==",
+  "new": ">=",
+  "line": 12,
+  "desc": "ROR line 12: '==' -> '>='"
+ },
+ {
+  "id": "BinarySearch-M09",
+  "unit": "BinarySearch",
+  "op": "ROR",
+  "offset": 366,
+  "old": "==",
+  "new": "!=",
+  "line": 12,
+  "desc": "ROR line 12: '==' -> '!='"
+ },
+ {
+  "id": "BinarySearch-M10",
+  "unit": "BinarySearch",
+  "op": "ROR",
+  "offset": 366,
+  "old": "==",
+  "new": "<",
+  "line": 12,
+  "desc": "ROR line 12: '==' -> '<'"
+ },
+ {
+  "id": "BinarySearch-M11",
+  "unit": "BinarySearch",
+  "op": "ROR",
+  "offset": 366,
+  "old": "==",
+  "new": ">",
+  "line": 12,
+  "desc": "ROR line 12: '==' -> '>'"
+ },
+ {
+  "id": "BinarySearch-M12",
+  "unit": "BinarySearch",
+  "op": "ROR",
+  "offset": 439,
+  "old": "<",
+  "new": "<=",
+  "line": 14,
+  "desc": "ROR line 14: '<' -> '<='"
+ },
+ {
+  "id": "BinarySearch-M13",
+  "unit": "BinarySearch",
+  "op": "ROR",
+  "offset": 439,
+  "old": "<",
+  "new": ">=",
+  "line": 14,
+  "desc": "ROR line 14: '<' -> '>='"
+ },
+ {
+  "id": "BinarySearch-M14",
+  "unit": "BinarySearch",
+  "op": "ROR",
+  "offset": 439,
+  "old": "<",
+  "new": "==",
+  "line": 14,
+  "desc": "ROR line 14: '<' -> '=='"
+ },
+ {
+  "id": "BinarySearch-M15",
+  "unit": "BinarySearch",
+  "op": "ROR",
+  "offset": 439,
+  "old": "<",
+  "new": "!=",
+  "line": 14,
+  "desc": "ROR line 14: '<' -> '!='"
+ },
+ {
+  "id": "BinarySearch-M16",
+  "unit": "BinarySearch",
+  "op": "ROR",
+  "offset": 439,
+  "old": "<",
+  "new": ">",
+  "line": 14,
+  "desc": "ROR line 14: '<' -> '>'"
+ },
+ {
+  "id": "BinarySearch-M17",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 264,
+  "old": "-",
+  "new": "+",
+  "line": 9,
+  "desc": "AOR line 9: '-' -> '+'"
+ },
+ {
+  "id": "BinarySearch-M18",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 264,
+  "old": "-",
+  "new": "*",
+  "line": 9,
+  "desc": "AOR line 9: '-' -> '*'"
+ },
+ {
+  "id": "BinarySearch-M19",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 264,
+  "old": "-",
+  "new": "/",
+  "line": 9,
+  "desc": "AOR line 9: '-' -> '/'"
+ },
+ {
+  "id": "BinarySearch-M20",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 264,
+  "old": "-",
+  "new": "%",
+  "line": 9,
+  "desc": "AOR line 9: '-' -> '%'"
+ },
+ {
+  "id": "BinarySearch-M21",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 321,
+  "old": "+",
+  "new": "-",
+  "line": 11,
+  "desc": "AOR line 11: '+' -> '-'"
+ },
+ {
+  "id": "BinarySearch-M22",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 321,
+  "old": "+",
+  "new": "*",
+  "line": 11,
+  "desc": "AOR line 11: '+' -> '*'"
+ },
+ {
+  "id": "BinarySearch-M23",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 321,
+  "old": "+",
+  "new": "/",
+  "line": 11,
+  "desc": "AOR line 11: '+' -> '/'"
+ },
+ {
+  "id": "BinarySearch-M24",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 321,
+  "old": "+",
+  "new": "%",
+  "line": 11,
+  "desc": "AOR line 11: '+' -> '%'"
+ },
+ {
+  "id": "BinarySearch-M25",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 327,
+  "old": "-",
+  "new": "+",
+  "line": 11,
+  "desc": "AOR line 11: '-' -> '+'"
+ },
+ {
+  "id": "BinarySearch-M26",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 327,
+  "old": "-",
+  "new": "*",
+  "line": 11,
+  "desc": "AOR line 11: '-' -> '*'"
+ },
+ {
+  "id": "BinarySearch-M27",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 327,
+  "old": "-",
+  "new": "/",
+  "line": 11,
+  "desc": "AOR line 11: '-' -> '/'"
+ },
+ {
+  "id": "BinarySearch-M28",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 327,
+  "old": "-",
+  "new": "%",
+  "line": 11,
+  "desc": "AOR line 11: '-' -> '%'"
+ },
+ {
+  "id": "BinarySearch-M29",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 333,
+  "old": "/",
+  "new": "+",
+  "line": 11,
+  "desc": "AOR line 11: '/' -> '+'"
+ },
+ {
+  "id": "BinarySearch-M30",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 333,
+  "old": "/",
+  "new": "-",
+  "line": 11,
+  "desc": "AOR line 11: '/' -> '-'"
+ },
+ {
+  "id": "BinarySearch-M31",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 333,
+  "old": "/",
+  "new": "*",
+  "line": 11,
+  "desc": "AOR line 11: '/' -> '*'"
+ },
+ {
+  "id": "BinarySearch-M32",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 333,
+  "old": "/",
+  "new": "%",
+  "line": 11,
+  "desc": "AOR line 11: '/' -> '%'"
+ },
+ {
+  "id": "BinarySearch-M33",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 473,
+  "old": "+",
+  "new": "-",
+  "line": 15,
+  "desc": "AOR line 15: '+' -> '-'"
+ },
+ {
+  "id": "BinarySearch-M34",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 473,
+  "old": "+",
+  "new": "*",
+  "line": 15,
+  "desc": "AOR line 15: '+' -> '*'"
+ },
+ {
+  "id": "BinarySearch-M35",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 473,
+  "old": "+",
+  "new": "/",
+  "line": 15,
+  "desc": "AOR line 15: '+' -> '/'"
+ },
+ {
+  "id": "BinarySearch-M36",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 473,
+  "old": "+",
+  "new": "%",
+  "line": 15,
+  "desc": "AOR line 15: '+' -> '%'"
+ },
+ {
+  "id": "BinarySearch-M37",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 524,
+  "old": "-",
+  "new": "+",
+  "line": 17,
+  "desc": "AOR line 17: '-' -> '+'"
+ },
+ {
+  "id": "BinarySearch-M38",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 524,
+  "old": "-",
+  "new": "*",
+  "line": 17,
+  "desc": "AOR line 17: '-' -> '*'"
+ },
+ {
+  "id": "BinarySearch-M39",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 524,
+  "old": "-",
+  "new": "/",
+  "line": 17,
+  "desc": "AOR line 17: '-' -> '/'"
+ },
+ {
+  "id": "BinarySearch-M40",
+  "unit": "BinarySearch",
+  "op": "AOR",
+  "offset": 524,
+  "old": "-",
+  "new": "%",
+  "line": 17,
+  "desc": "AOR line 17: '-' -> '%'"
+ },
+ {
+  "id": "BinarySearch-M41",
+  "unit": "BinarySearch",
+  "op": "CRP",
+  "offset": 230,
+  "old": "0",
+  "new": "1",
+  "line": 8,
+  "desc": "CRP line 8: '0' -> '1'"
+ },
+ {
+  "id": "BinarySearch-M42",
+  "unit": "BinarySearch",
+  "op": "CRP",
+  "offset": 266,
+  "old": "1",
+  "new": "2",
+  "line": 9,
+  "desc": "CRP line 9: '1' -> '2'"
+ },
+ {
+  "id": "BinarySearch-M43",
+  "unit": "BinarySearch",
+  "op": "CRP",
+  "offset": 266,
+  "old": "1",
+  "new": "0",
+  "line": 9,
+  "desc": "CRP line 9: '1' -> '0'"
+ },
+ {
+  "id": "BinarySearch-M44",
+  "unit": "BinarySearch",
+  "op": "CRP",
+  "offset": 335,
+  "old": "2",
+  "new": "3",
+  "line": 11,
+  "desc": "CRP line 11: '2' -> '3'"
+ },
+ {
+  "id": "BinarySearch-M45",
+  "unit": "BinarySearch",
+  "op": "CRP",
+  "offset": 335,
+  "old": "2",
+  "new": "1",
+  "line": 11,
+  "desc": "CRP line 11: '2' -> '1'"
+ },
+ {
+  "id": "BinarySearch-M46",
+  "unit": "BinarySearch",
+  "op": "CRP",
+  "offset": 475,
+  "old": "1",
+  "new": "2",
+  "line": 15,
+  "desc": "CRP line 15: '1' -> '2'"
+ },
+ {
+  "id": "BinarySearch-M47",
+  "unit": "BinarySearch",
+  "op": "CRP",
+  "offset": 475,
+  "old": "1",
+  "new": "0",
+  "line": 15,
+  "desc": "CRP line 15: '1' -> '0'"
+ },
+ {
+  "id": "BinarySearch-M48",
+  "unit": "BinarySearch",
+  "op": "CRP",
+  "offset": 526,
+  "old": "1",
+  "new": "2",
+  "line": 17,
+  "desc": "CRP line 17: '1' -> '2'"
+ },
+ {
+  "id": "BinarySearch-M49",
+  "unit": "BinarySearch",
+  "op": "CRP",
+  "offset": 526,
+  "old": "1",
+  "new": "0",
+  "line": 17,
+  "desc": "CRP line 17: '1' -> '0'"
+ },
+ {
+  "id": "BinarySearch-M50",
+  "unit": "BinarySearch",
+  "op": "CRP",
+  "offset": 569,
+  "old": "1",
+  "new": "2",
+  "line": 20,
+  "desc": "CRP line 20: '1' -> '2'"
+ },
+ {
+  "id": "BinarySearch-M51",
+  "unit": "BinarySearch",
+  "op": "CRP",
+  "offset": 569,
+  "old": "1",
+  "new": "0",
+  "line": 20,
+  "desc": "CRP line 20: '1' -> '0'"
+ },
+ {
+  "id": "BoundedStack-M01",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 159,
+  "old": "<=",
+  "new": ">=",
+  "line": 8,
+  "desc": "ROR line 8: '<=' -> '>='"
+ },
+ {
+  "id": "BoundedStack-M02",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 159,
+  "old": "<=",
+  "new": "==",
+  "line": 8,
+  "desc": "ROR line 8: '<=' -> '=='"
+ },
+ {
+  "id": "BoundedStack-M03",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 159,
+  "old": "<=",
+  "new": "!=",
+  "line": 8,
+  "desc": "ROR line 8: '<=' -> '!='"
+ },
+ {
+  "id": "BoundedStack-M04",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 159,
+  "old": "<=",
+  "new": "<",
+  "line": 8,
+  "desc": "ROR line 8: '<=' -> '<'"
+ },
+ {
+  "id": "BoundedStack-M05",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 159,
+  "old": "<=",
+  "new": ">",
+  "line": 8,
+  "desc": "ROR line 8: '<=' -> '>'"
+ },
+ {
+  "id": "BoundedStack-M06",
+  "unit": "BoundedStack",
+  "op": "CRP",
+  "offset": 162,
+  "old": "0",
+  "new": "1",
+  "line": 8,
+  "desc": "CRP line 8: '0' -> '1'"
+ },
+ {
+  "id": "BoundedStack-M07",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 365,
+  "old": ">=",
+  "new": "<=",
+  "line": 16,
+  "desc": "ROR line 16: '>=' -> '<='"
+ },
+ {
+  "id": "BoundedStack-M08",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 365,
+  "old": ">=",
+  "new": "==",
+  "line": 16,
+  "desc": "ROR line 16: '>=' -> '=='"
+ },
+ {
+  "id": "BoundedStack-M09",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 365,
+  "old": ">=",
+  "new": "!=",
+  "line": 16,
+  "desc": "ROR line 16: '>=' -> '!='"
+ },
+ {
+  "id": "BoundedStack-M10",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 365,
+  "old": ">=",
+  "new": "<",
+  "line": 16,
+  "desc": "ROR line 16: '>=' -> '<'"
+ },
+ {
+  "id": "BoundedStack-M11",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 365,
+  "old": ">=",
+  "new": ">",
+  "line": 16,
+  "desc": "ROR line 16: '>=' -> '>'"
+ },
+ {
+  "id": "BoundedStack-M12",
+  "unit": "BoundedStack",
+  "op": "CRP",
+  "offset": 304,
+  "old": "0",
+  "new": "1",
+  "line": 12,
+  "desc": "CRP line 12: '0' -> '1'"
+ },
+ {
+  "id": "BoundedStack-M13",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 548,
+  "old": "==",
+  "new": "<=",
+  "line": 24,
+  "desc": "ROR line 24: '==' -> '<='"
+ },
+ {
+  "id": "BoundedStack-M14",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 548,
+  "old": "==",
+  "new": ">=",
+  "line": 24,
+  "desc": "ROR line 24: '==' -> '>='"
+ },
+ {
+  "id": "BoundedStack-M15",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 548,
+  "old": "==",
+  "new": "!=",
+  "line": 24,
+  "desc": "ROR line 24: '==' -> '!='"
+ },
+ {
+  "id": "BoundedStack-M16",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 548,
+  "old": "==",
+  "new": "<",
+  "line": 24,
+  "desc": "ROR line 24: '==' -> '<'"
+ },
+ {
+  "id": "BoundedStack-M17",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 548,
+  "old": "==",
+  "new": ">",
+  "line": 24,
+  "desc": "ROR line 24: '==' -> '>'"
+ },
+ {
+  "id": "BoundedStack-M18",
+  "unit": "BoundedStack",
+  "op": "CRP",
+  "offset": 551,
+  "old": "0",
+  "new": "1",
+  "line": 24,
+  "desc": "CRP line 24: '0' -> '1'"
+ },
+ {
+  "id": "BoundedStack-M19",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 721,
+  "old": "==",
+  "new": "<=",
+  "line": 32,
+  "desc": "ROR line 32: '==' -> '<='"
+ },
+ {
+  "id": "BoundedStack-M20",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 721,
+  "old": "==",
+  "new": ">=",
+  "line": 32,
+  "desc": "ROR line 32: '==' -> '>='"
+ },
+ {
+  "id": "BoundedStack-M21",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 721,
+  "old": "==",
+  "new": "!=",
+  "line": 32,
+  "desc": "ROR line 32: '==' -> '!='"
+ },
+ {
+  "id": "BoundedStack-M22",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 721,
+  "old": "==",
+  "new": "<",
+  "line": 32,
+  "desc": "ROR line 32: '==' -> '<'"
+ },
+ {
+  "id": "BoundedStack-M23",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 721,
+  "old": "==",
+  "new": ">",
+  "line": 32,
+  "desc": "ROR line 32: '==' -> '>'"
+ },
+ {
+  "id": "BoundedStack-M24",
+  "unit": "BoundedStack",
+  "op": "CRP",
+  "offset": 724,
+  "old": "0",
+  "new": "1",
+  "line": 32,
+  "desc": "CRP line 32: '0' -> '1'"
+ },
+ {
+  "id": "BoundedStack-M25",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 944,
+  "old": "==",
+  "new": "<=",
+  "line": 43,
+  "desc": "ROR line 43: '==' -> '<='"
+ },
+ {
+  "id": "BoundedStack-M26",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 944,
+  "old": "==",
+  "new": ">=",
+  "line": 43,
+  "desc": "ROR line 43: '==' -> '>='"
+ },
+ {
+  "id": "BoundedStack-M27",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 944,
+  "old": "==",
+  "new": "!=",
+  "line": 43,
+  "desc": "ROR line 43: '==' -> '!='"
+ },
+ {
+  "id": "BoundedStack-M28",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 944,
+  "old": "==",
+  "new": "<",
+  "line": 43,
+  "desc": "ROR line 43: '==' -> '<'"
+ },
+ {
+  "id": "BoundedStack-M29",
+  "unit": "BoundedStack",
+  "op": "ROR",
+  "offset": 944,
+  "old": "==",
+  "new": ">",
+  "line": 43,
+  "desc": "ROR line 43: '==' -> '>'"
+ },
+ {
+  "id": "BoundedStack-M30",
+  "unit": "BoundedStack",
+  "op": "AOR",
+  "offset": 828,
+  "old": "-",
+  "new": "+",
+  "line": 35,
+  "desc": "AOR line 35: '-' -> '+'"
+ },
+ {
+  "id": "BoundedStack-M31",
+  "unit": "BoundedStack",
+  "op": "AOR",
+  "offset": 828,
+  "old": "-",
+  "new": "*",
+  "line": 35,
+  "desc": "AOR line 35: '-' -> '*'"
+ },
+ {
+  "id": "BoundedStack-M32",
+  "unit": "BoundedStack",
+  "op": "AOR",
+  "offset": 828,
+  "old": "-",
+  "new": "/",
+  "line": 35,
+  "desc": "AOR line 35: '-' -> '/'"
+ },
+ {
+  "id": "BoundedStack-M33",
+  "unit": "BoundedStack",
+  "op": "AOR",
+  "offset": 828,
+  "old": "-",
+  "new": "%",
+  "line": 35,
+  "desc": "AOR line 35: '-' -> '%'"
+ },
+ {
+  "id": "BoundedStack-M34",
+  "unit": "BoundedStack",
+  "op": "CRP",
+  "offset": 830,
+  "old": "1",
+  "new": "2",
+  "line": 35,
+  "desc": "CRP line 35: '1' -> '2'"
+ },
+ {
+  "id": "BoundedStack-M35",
+  "unit": "BoundedStack",
+  "op": "CRP",
+  "offset": 830,
+  "old": "1",
+  "new": "0",
+  "line": 35,
+  "desc": "CRP line 35: '1' -> '0'"
+ },
+ {
+  "id": "BoundedStack-M36",
+  "unit": "BoundedStack",
+  "op": "CRP",
+  "offset": 947,
+  "old": "0",
+  "new": "1",
+  "line": 43,
+  "desc": "CRP line 43: '0' -> '1'"
+ },
+ {
+  "id": "Discount-M01",
+  "unit": "Discount",
+  "op": "ROR",
+  "offset": 132,
+  "old": "<",
+  "new": "<=",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '<='"
+ },
+ {
+  "id": "Discount-M02",
+  "unit": "Discount",
+  "op": "ROR",
+  "offset": 132,
+  "old": "<",
+  "new": ">=",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '>='"
+ },
+ {
+  "id": "Discount-M03",
+  "unit": "Discount",
+  "op": "ROR",
+  "offset": 132,
+  "old": "<",
+  "new": "==",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '=='"
+ },
+ {
+  "id": "Discount-M04",
+  "unit": "Discount",
+  "op": "ROR",
+  "offset": 132,
+  "old": "<",
+  "new": "!=",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '!='"
+ },
+ {
+  "id": "Discount-M05",
+  "unit": "Discount",
+  "op": "ROR",
+  "offset": 132,
+  "old": "<",
+  "new": ">",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '>'"
+ },
+ {
+  "id": "Discount-M06",
+  "unit": "Discount",
+  "op": "ROR",
+  "offset": 148,
+  "old": "<=",
+  "new": ">=",
+  "line": 5,
+  "desc": "ROR line 5: '<=' -> '>='"
+ },
+ {
+  "id": "Discount-M07",
+  "unit": "Discount",
+  "op": "ROR",
+  "offset": 148,
+  "old": "<=",
+  "new": "==",
+  "line": 5,
+  "desc": "ROR line 5: '<=' -> '=='"
+ },
+ {
+  "id": "Discount-M08",
+  "unit": "Discount",
+  "op": "ROR",
+  "offset": 148,
+  "old": "<=",
+  "new": "!=",
+  "line": 5,
+  "desc": "ROR line 5: '<=' -> '!='"
+ },
+ {
+  "id": "Discount-M09",
+  "unit": "Discount",
+  "op": "ROR",
+  "offset": 148,
+  "old": "<=",
+  "new": "<",
+  "line": 5,
+  "desc": "ROR line 5: '<=' -> '<'"
+ },
+ {
+  "id": "Discount-M10",
+  "unit": "Discount",
+  "op": "ROR",
+  "offset": 148,
+  "old": "<=",
+  "new": ">",
+  "line": 5,
+  "desc": "ROR line 5: '<=' -> '>'"
+ },
+ {
+  "id": "Discount-M11",
+  "unit": "Discount",
+  "op": "CRP",
+  "offset": 134,
+  "old": "0",
+  "new": "1",
+  "line": 5,
+  "desc": "CRP line 5: '0' -> '1'"
+ },
+ {
+  "id": "Discount-M12",
+  "unit": "Discount",
+  "op": "CRP",
+  "offset": 151,
+  "old": "0",
+  "new": "1",
+  "line": 5,
+  "desc": "CRP line 5: '0' -> '1'"
+ },
+ {
+  "id": "Discount-M13",
+  "unit": "Discount",
+  "op": "ROR",
+  "offset": 334,
+  "old": ">=",
+  "new": "<=",
+  "line": 10,
+  "desc": "ROR line 10: '>=' -> '<='"
+ },
+ {
+  "id": "Discount-M14",
+  "unit": "Discount",
+  "op": "ROR",
+  "offset": 334,
+  "old": ">=",
+  "new": "==",
+  "line": 10,
+  "desc": "ROR line 10: '>=' -> '=='"
+ },
+ {
+  "id": "Discount-M15",
+  "unit": "Discount",
+  "op": "ROR",
+  "offset": 334,
+  "old": ">=",
+  "new": "!=",
+  "line": 10,
+  "desc": "ROR line 10: '>=' -> '!='"
+ },
+ {
+  "id": "Discount-M16",
+  "unit": "Discount",
+  "op": "ROR",
+  "offset": 334,
+  "old": ">=",
+  "new": "<",
+  "line": 10,
+  "desc": "ROR line 10: '>=' -> '<'"
+ },
+ {
+  "id": "Discount-M17",
+  "unit": "Discount",
+  "op": "ROR",
+  "offset": 334,
+  "old": ">=",
+  "new": ">",
+  "line": 10,
+  "desc": "ROR line 10: '>=' -> '>'"
+ },
+ {
+  "id": "Discount-M18",
+  "unit": "Discount",
+  "op": "ROR",
+  "offset": 408,
+  "old": ">=",
+  "new": "<=",
+  "line": 12,
+  "desc": "ROR line 12: '>=' -> '<='"
+ },
+ {
+  "id": "Discount-M19",
+  "unit": "Discount",
+  "op": "ROR",
+  "offset": 408,
+  "old": ">=",
+  "new": "==",
+  "line": 12,
+  "desc": "ROR line 12: '>=' -> '=='"
+ },
+ {
+  "id": "Discount-M20",
+  "unit": "Discount",
+  "op": "ROR",
+  "offset": 408,
+  "old": ">=",
+  "new": "!=",
+  "line": 12,
+  "desc": "ROR line 12: '>=' -> '!='"
+ },
+ {
+  "id": "Discount-M21",
+  "unit": "Discount",
+  "op": "ROR",
+  "offset": 408,
+  "old": ">=",
+  "new": "<",
+  "line": 12,
+  "desc": "ROR line 12: '>=' -> '<'"
+ },
+ {
+  "id": "Discount-M22",
+  "unit": "Discount",
+  "op": "ROR",
+  "offset": 408,
+  "old": ">=",
+  "new": ">",
+  "line": 12,
+  "desc": "ROR line 12: '>=' -> '>'"
+ },
+ {
+  "id": "Discount-M23",
+  "unit": "Discount",
+  "op": "AOR",
+  "offset": 279,
+  "old": "*",
+  "new": "+",
+  "line": 8,
+  "desc": "AOR line 8: '*' -> '+'"
+ },
+ {
+  "id": "Discount-M24",
+  "unit": "Discount",
+  "op": "AOR",
+  "offset": 279,
+  "old": "*",
+  "new": "-",
+  "line": 8,
+  "desc": "AOR line 8: '*' -> '-'"
+ },
+ {
+  "id": "Discount-M25",
+  "unit": "Discount",
+  "op": "AOR",
+  "offset": 279,
+  "old": "*",
+  "new": "/",
+  "line": 8,
+  "desc": "AOR line 8: '*' -> '/'"
+ },
+ {
+  "id": "Discount-M26",
+  "unit": "Discount",
+  "op": "AOR",
+  "offset": 279,
+  "old": "*",
+  "new": "%",
+  "line": 8,
+  "desc": "AOR line 8: '*' -> '%'"
+ },
+ {
+  "id": "Discount-M27",
+  "unit": "Discount",
+  "op": "AOR",
+  "offset": 372,
+  "old": "*",
+  "new": "+",
+  "line": 11,
+  "desc": "AOR line 11: '*' -> '+'"
+ },
+ {
+  "id": "Discount-M28",
+  "unit": "Discount",
+  "op": "AOR",
+  "offset": 372,
+  "old": "*",
+  "new": "-",
+  "line": 11,
+  "desc": "AOR line 11: '*' -> '-'"
+ },
+ {
+  "id": "Discount-M29",
+  "unit": "Discount",
+  "op": "AOR",
+  "offset": 372,
+  "old": "*",
+  "new": "/",
+  "line": 11,
+  "desc": "AOR line 11: '*' -> '/'"
+ },
+ {
+  "id": "Discount-M30",
+  "unit": "Discount",
+  "op": "AOR",
+  "offset": 372,
+  "old": "*",
+  "new": "%",
+  "line": 11,
+  "desc": "AOR line 11: '*' -> '%'"
+ },
+ {
+  "id": "Discount-M31",
+  "unit": "Discount",
+  "op": "AOR",
+  "offset": 449,
+  "old": "*",
+  "new": "+",
+  "line": 13,
+  "desc": "AOR line 13: '*' -> '+'"
+ },
+ {
+  "id": "Discount-M32",
+  "unit": "Discount",
+  "op": "AOR",
+  "offset": 449,
+  "old": "*",
+  "new": "-",
+  "line": 13,
+  "desc": "AOR line 13: '*' -> '-'"
+ },
+ {
+  "id": "Discount-M33",
+  "unit": "Discount",
+  "op": "AOR",
+  "offset": 449,
+  "old": "*",
+  "new": "/",
+  "line": 13,
+  "desc": "AOR line 13: '*' -> '/'"
+ },
+ {
+  "id": "Discount-M34",
+  "unit": "Discount",
+  "op": "AOR",
+  "offset": 449,
+  "old": "*",
+  "new": "%",
+  "line": 13,
+  "desc": "AOR line 13: '*' -> '%'"
+ },
+ {
+  "id": "Discount-M35",
+  "unit": "Discount",
+  "op": "AOR",
+  "offset": 546,
+  "old": "*",
+  "new": "+",
+  "line": 17,
+  "desc": "AOR line 17: '*' -> '+'"
+ },
+ {
+  "id": "Discount-M36",
+  "unit": "Discount",
+  "op": "AOR",
+  "offset": 546,
+  "old": "*",
+  "new": "-",
+  "line": 17,
+  "desc": "AOR line 17: '*' -> '-'"
+ },
+ {
+  "id": "Discount-M37",
+  "unit": "Discount",
+  "op": "AOR",
+  "offset": 546,
+  "old": "*",
+  "new": "/",
+  "line": 17,
+  "desc": "AOR line 17: '*' -> '/'"
+ },
+ {
+  "id": "Discount-M38",
+  "unit": "Discount",
+  "op": "AOR",
+  "offset": 546,
+  "old": "*",
+  "new": "%",
+  "line": 17,
+  "desc": "AOR line 17: '*' -> '%'"
+ },
+ {
+  "id": "Discount-M39",
+  "unit": "Discount",
+  "op": "AOR",
+  "offset": 555,
+  "old": "/",
+  "new": "+",
+  "line": 17,
+  "desc": "AOR line 17: '/' -> '+'"
+ },
+ {
+  "id": "Discount-M40",
+  "unit": "Discount",
+  "op": "AOR",
+  "offset": 555,
+  "old": "/",
+  "new": "-",
+  "line": 17,
+  "desc": "AOR line 17: '/' -> '-'"
+ },
+ {
+  "id": "Discount-M41",
+  "unit": "Discount",
+  "op": "AOR",
+  "offset": 555,
+  "old": "/",
+  "new": "*",
+  "line": 17,
+  "desc": "AOR line 17: '/' -> '*'"
+ },
+ {
+  "id": "Discount-M42",
+  "unit": "Discount",
+  "op": "AOR",
+  "offset": 555,
+  "old": "/",
+  "new": "%",
+  "line": 17,
+  "desc": "AOR line 17: '/' -> '%'"
+ },
+ {
+  "id": "Discount-M43",
+  "unit": "Discount",
+  "op": "CRP",
+  "offset": 337,
+  "old": "10",
+  "new": "11",
+  "line": 10,
+  "desc": "CRP line 10: '10' -> '11'"
+ },
+ {
+  "id": "Discount-M44",
+  "unit": "Discount",
+  "op": "CRP",
+  "offset": 337,
+  "old": "10",
+  "new": "9",
+  "line": 10,
+  "desc": "CRP line 10: '10' -> '9'"
+ },
+ {
+  "id": "FizzBuzz-M01",
+  "unit": "FizzBuzz",
+  "op": "ROR",
+  "offset": 96,
+  "old": "<",
+  "new": "<=",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '<='"
+ },
+ {
+  "id": "FizzBuzz-M02",
+  "unit": "FizzBuzz",
+  "op": "ROR",
+  "offset": 96,
+  "old": "<",
+  "new": ">=",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '>='"
+ },
+ {
+  "id": "FizzBuzz-M03",
+  "unit": "FizzBuzz",
+  "op": "ROR",
+  "offset": 96,
+  "old": "<",
+  "new": "==",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '=='"
+ },
+ {
+  "id": "FizzBuzz-M04",
+  "unit": "FizzBuzz",
+  "op": "ROR",
+  "offset": 96,
+  "old": "<",
+  "new": "!=",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '!='"
+ },
+ {
+  "id": "FizzBuzz-M05",
+  "unit": "FizzBuzz",
+  "op": "ROR",
+  "offset": 96,
+  "old": "<",
+  "new": ">",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '>'"
+ },
+ {
+  "id": "FizzBuzz-M06",
+  "unit": "FizzBuzz",
+  "op": "CRP",
+  "offset": 98,
+  "old": "1",
+  "new": "2",
+  "line": 5,
+  "desc": "CRP line 5: '1' -> '2'"
+ },
+ {
+  "id": "FizzBuzz-M07",
+  "unit": "FizzBuzz",
+  "op": "CRP",
+  "offset": 98,
+  "old": "1",
+  "new": "0",
+  "line": 5,
+  "desc": "CRP line 5: '1' -> '0'"
+ },
+ {
+  "id": "FizzBuzz-M08",
+  "unit": "FizzBuzz",
+  "op": "ROR",
+  "offset": 198,
+  "old": "==",
+  "new": "<=",
+  "line": 8,
+  "desc": "ROR line 8: '==' -> '<='"
+ },
+ {
+  "id": "FizzBuzz-M09",
+  "unit": "FizzBuzz",
+  "op": "ROR",
+  "offset": 198,
+  "old": "==",
+  "new": ">=",
+  "line": 8,
+  "desc": "ROR line 8: '==' -> '>='"
+ },
+ {
+  "id": "FizzBuzz-M10",
+  "unit": "FizzBuzz",
+  "op": "ROR",
+  "offset": 198,
+  "old": "==",
+  "new": "!=",
+  "line": 8,
+  "desc": "ROR line 8: '==' -> '!='"
+ },
+ {
+  "id": "FizzBuzz-M11",
+  "unit": "FizzBuzz",
+  "op": "ROR",
+  "offset": 198,
+  "old": "==",
+  "new": "<",
+  "line": 8,
+  "desc": "ROR line 8: '==' -> '<'"
+ },
+ {
+  "id": "FizzBuzz-M12",
+  "unit": "FizzBuzz",
+  "op": "ROR",
+  "offset": 198,
+  "old": "==",
+  "new": ">",
+  "line": 8,
+  "desc": "ROR line 8: '==' -> '>'"
+ },
+ {
+  "id": "FizzBuzz-M13",
+  "unit": "FizzBuzz",
+  "op": "AOR",
+  "offset": 193,
+  "old": "%",
+  "new": "+",
+  "line": 8,
+  "desc": "AOR line 8: '%' -> '+'"
+ },
+ {
+  "id": "FizzBuzz-M14",
+  "unit": "FizzBuzz",
+  "op": "AOR",
+  "offset": 193,
+  "old": "%",
+  "new": "-",
+  "line": 8,
+  "desc": "AOR line 8: '%' -> '-'"
+ },
+ {
+  "id": "FizzBuzz-M15",
+  "unit": "FizzBuzz",
+  "op": "AOR",
+  "offset": 193,
+  "old": "%",
+  "new": "*",
+  "line": 8,
+  "desc": "AOR line 8: '%' -> '*'"
+ },
+ {
+  "id": "FizzBuzz-M16",
+  "unit": "FizzBuzz",
+  "op": "AOR",
+  "offset": 193,
+  "old": "%",
+  "new": "/",
+  "line": 8,
+  "desc": "AOR line 8: '%' -> '/'"
+ },
+ {
+  "id": "FizzBuzz-M17",
+  "unit": "FizzBuzz",
+  "op": "CRP",
+  "offset": 195,
+  "old": "15",
+  "new": "16",
+  "line": 8,
+  "desc": "CRP line 8: '15' -> '16'"
+ },
+ {
+  "id": "FizzBuzz-M18",
+  "unit": "FizzBuzz",
+  "op": "CRP",
+  "offset": 195,
+  "old": "15",
+  "new": "14",
+  "line": 8,
+  "desc": "CRP line 8: '15' -> '14'"
+ },
+ {
+  "id": "FizzBuzz-M19",
+  "unit": "FizzBuzz",
+  "op": "CRP",
+  "offset": 201,
+  "old": "0",
+  "new": "1",
+  "line": 8,
+  "desc": "CRP line 8: '0' -> '1'"
+ },
+ {
+  "id": "FizzBuzz-M20",
+  "unit": "FizzBuzz",
+  "op": "ROR",
+  "offset": 241,
+  "old": "==",
+  "new": "<=",
+  "line": 9,
+  "desc": "ROR line 9: '==' -> '<='"
+ },
+ {
+  "id": "FizzBuzz-M21",
+  "unit": "FizzBuzz",
+  "op": "ROR",
+  "offset": 241,
+  "old": "==",
+  "new": ">=",
+  "line": 9,
+  "desc": "ROR line 9: '==' -> '>='"
+ },
+ {
+  "id": "FizzBuzz-M22",
+  "unit": "FizzBuzz",
+  "op": "ROR",
+  "offset": 241,
+  "old": "==",
+  "new": "!=",
+  "line": 9,
+  "desc": "ROR line 9: '==' -> '!='"
+ },
+ {
+  "id": "FizzBuzz-M23",
+  "unit": "FizzBuzz",
+  "op": "ROR",
+  "offset": 241,
+  "old": "==",
+  "new": "<",
+  "line": 9,
+  "desc": "ROR line 9: '==' -> '<'"
+ },
+ {
+  "id": "FizzBuzz-M24",
+  "unit": "FizzBuzz",
+  "op": "ROR",
+  "offset": 241,
+  "old": "==",
+  "new": ">",
+  "line": 9,
+  "desc": "ROR line 9: '==' -> '>'"
+ },
+ {
+  "id": "FizzBuzz-M25",
+  "unit": "FizzBuzz",
+  "op": "AOR",
+  "offset": 237,
+  "old": "%",
+  "new": "+",
+  "line": 9,
+  "desc": "AOR line 9: '%' -> '+'"
+ },
+ {
+  "id": "FizzBuzz-M26",
+  "unit": "FizzBuzz",
+  "op": "AOR",
+  "offset": 237,
+  "old": "%",
+  "new": "-",
+  "line": 9,
+  "desc": "AOR line 9: '%' -> '-'"
+ },
+ {
+  "id": "FizzBuzz-M27",
+  "unit": "FizzBuzz",
+  "op": "AOR",
+  "offset": 237,
+  "old": "%",
+  "new": "*",
+  "line": 9,
+  "desc": "AOR line 9: '%' -> '*'"
+ },
+ {
+  "id": "FizzBuzz-M28",
+  "unit": "FizzBuzz",
+  "op": "AOR",
+  "offset": 237,
+  "old": "%",
+  "new": "/",
+  "line": 9,
+  "desc": "AOR line 9: '%' -> '/'"
+ },
+ {
+  "id": "FizzBuzz-M29",
+  "unit": "FizzBuzz",
+  "op": "CRP",
+  "offset": 239,
+  "old": "3",
+  "new": "4",
+  "line": 9,
+  "desc": "CRP line 9: '3' -> '4'"
+ },
+ {
+  "id": "FizzBuzz-M30",
+  "unit": "FizzBuzz",
+  "op": "CRP",
+  "offset": 239,
+  "old": "3",
+  "new": "2",
+  "line": 9,
+  "desc": "CRP line 9: '3' -> '2'"
+ },
+ {
+  "id": "FizzBuzz-M31",
+  "unit": "FizzBuzz",
+  "op": "CRP",
+  "offset": 244,
+  "old": "0",
+  "new": "1",
+  "line": 9,
+  "desc": "CRP line 9: '0' -> '1'"
+ },
+ {
+  "id": "FizzBuzz-M32",
+  "unit": "FizzBuzz",
+  "op": "ROR",
+  "offset": 280,
+  "old": "==",
+  "new": "<=",
+  "line": 10,
+  "desc": "ROR line 10: '==' -> '<='"
+ },
+ {
+  "id": "FizzBuzz-M33",
+  "unit": "FizzBuzz",
+  "op": "ROR",
+  "offset": 280,
+  "old": "==",
+  "new": ">=",
+  "line": 10,
+  "desc": "ROR line 10: '==' -> '>='"
+ },
+ {
+  "id": "FizzBuzz-M34",
+  "unit": "FizzBuzz",
+  "op": "ROR",
+  "offset": 280,
+  "old": "==",
+  "new": "!=",
+  "line": 10,
+  "desc": "ROR line 10: '==' -> '!='"
+ },
+ {
+  "id": "FizzBuzz-M35",
+  "unit": "FizzBuzz",
+  "op": "ROR",
+  "offset": 280,
+  "old": "==",
+  "new": "<",
+  "line": 10,
+  "desc": "ROR line 10: '==' -> '<'"
+ },
+ {
+  "id": "FizzBuzz-M36",
+  "unit": "FizzBuzz",
+  "op": "ROR",
+  "offset": 280,
+  "old": "==",
+  "new": ">",
+  "line": 10,
+  "desc": "ROR line 10: '==' -> '>'"
+ },
+ {
+  "id": "FizzBuzz-M37",
+  "unit": "FizzBuzz",
+  "op": "AOR",
+  "offset": 276,
+  "old": "%",
+  "new": "+",
+  "line": 10,
+  "desc": "AOR line 10: '%' -> '+'"
+ },
+ {
+  "id": "FizzBuzz-M38",
+  "unit": "FizzBuzz",
+  "op": "AOR",
+  "offset": 276,
+  "old": "%",
+  "new": "-",
+  "line": 10,
+  "desc": "AOR line 10: '%' -> '-'"
+ },
+ {
+  "id": "FizzBuzz-M39",
+  "unit": "FizzBuzz",
+  "op": "AOR",
+  "offset": 276,
+  "old": "%",
+  "new": "*",
+  "line": 10,
+  "desc": "AOR line 10: '%' -> '*'"
+ },
+ {
+  "id": "FizzBuzz-M40",
+  "unit": "FizzBuzz",
+  "op": "AOR",
+  "offset": 276,
+  "old": "%",
+  "new": "/",
+  "line": 10,
+  "desc": "AOR line 10: '%' -> '/'"
+ },
+ {
+  "id": "FizzBuzz-M41",
+  "unit": "FizzBuzz",
+  "op": "CRP",
+  "offset": 278,
+  "old": "5",
+  "new": "6",
+  "line": 10,
+  "desc": "CRP line 10: '5' -> '6'"
+ },
+ {
+  "id": "FizzBuzz-M42",
+  "unit": "FizzBuzz",
+  "op": "CRP",
+  "offset": 278,
+  "old": "5",
+  "new": "4",
+  "line": 10,
+  "desc": "CRP line 10: '5' -> '4'"
+ },
+ {
+  "id": "FizzBuzz-M43",
+  "unit": "FizzBuzz",
+  "op": "CRP",
+  "offset": 283,
+  "old": "0",
+  "new": "1",
+  "line": 10,
+  "desc": "CRP line 10: '0' -> '1'"
+ },
+ {
+  "id": "Gcd-M01",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 91,
+  "old": "<",
+  "new": "<=",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '<='"
+ },
+ {
+  "id": "Gcd-M02",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 91,
+  "old": "<",
+  "new": ">=",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '>='"
+ },
+ {
+  "id": "Gcd-M03",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 91,
+  "old": "<",
+  "new": "==",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '=='"
+ },
+ {
+  "id": "Gcd-M04",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 91,
+  "old": "<",
+  "new": "!=",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '!='"
+ },
+ {
+  "id": "Gcd-M05",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 91,
+  "old": "<",
+  "new": ">",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '>'"
+ },
+ {
+  "id": "Gcd-M06",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 100,
+  "old": "<",
+  "new": "<=",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '<='"
+ },
+ {
+  "id": "Gcd-M07",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 100,
+  "old": "<",
+  "new": ">=",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '>='"
+ },
+ {
+  "id": "Gcd-M08",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 100,
+  "old": "<",
+  "new": "==",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '=='"
+ },
+ {
+  "id": "Gcd-M09",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 100,
+  "old": "<",
+  "new": "!=",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '!='"
+ },
+ {
+  "id": "Gcd-M10",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 100,
+  "old": "<",
+  "new": ">",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '>'"
+ },
+ {
+  "id": "Gcd-M11",
+  "unit": "Gcd",
+  "op": "CRP",
+  "offset": 93,
+  "old": "0",
+  "new": "1",
+  "line": 5,
+  "desc": "CRP line 5: '0' -> '1'"
+ },
+ {
+  "id": "Gcd-M12",
+  "unit": "Gcd",
+  "op": "CRP",
+  "offset": 102,
+  "old": "0",
+  "new": "1",
+  "line": 5,
+  "desc": "CRP line 5: '0' -> '1'"
+ },
+ {
+  "id": "Gcd-M13",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 213,
+  "old": "==",
+  "new": "<=",
+  "line": 8,
+  "desc": "ROR line 8: '==' -> '<='"
+ },
+ {
+  "id": "Gcd-M14",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 213,
+  "old": "==",
+  "new": ">=",
+  "line": 8,
+  "desc": "ROR line 8: '==' -> '>='"
+ },
+ {
+  "id": "Gcd-M15",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 213,
+  "old": "==",
+  "new": "!=",
+  "line": 8,
+  "desc": "ROR line 8: '==' -> '!='"
+ },
+ {
+  "id": "Gcd-M16",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 213,
+  "old": "==",
+  "new": "<",
+  "line": 8,
+  "desc": "ROR line 8: '==' -> '<'"
+ },
+ {
+  "id": "Gcd-M17",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 213,
+  "old": "==",
+  "new": ">",
+  "line": 8,
+  "desc": "ROR line 8: '==' -> '>'"
+ },
+ {
+  "id": "Gcd-M18",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 223,
+  "old": "==",
+  "new": "<=",
+  "line": 8,
+  "desc": "ROR line 8: '==' -> '<='"
+ },
+ {
+  "id": "Gcd-M19",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 223,
+  "old": "==",
+  "new": ">=",
+  "line": 8,
+  "desc": "ROR line 8: '==' -> '>='"
+ },
+ {
+  "id": "Gcd-M20",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 223,
+  "old": "==",
+  "new": "!=",
+  "line": 8,
+  "desc": "ROR line 8: '==' -> '!='"
+ },
+ {
+  "id": "Gcd-M21",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 223,
+  "old": "==",
+  "new": "<",
+  "line": 8,
+  "desc": "ROR line 8: '==' -> '<'"
+ },
+ {
+  "id": "Gcd-M22",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 223,
+  "old": "==",
+  "new": ">",
+  "line": 8,
+  "desc": "ROR line 8: '==' -> '>'"
+ },
+ {
+  "id": "Gcd-M23",
+  "unit": "Gcd",
+  "op": "CRP",
+  "offset": 216,
+  "old": "0",
+  "new": "1",
+  "line": 8,
+  "desc": "CRP line 8: '0' -> '1'"
+ },
+ {
+  "id": "Gcd-M24",
+  "unit": "Gcd",
+  "op": "CRP",
+  "offset": 226,
+  "old": "0",
+  "new": "1",
+  "line": 8,
+  "desc": "CRP line 8: '0' -> '1'"
+ },
+ {
+  "id": "Gcd-M25",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 332,
+  "old": "!=",
+  "new": "<=",
+  "line": 11,
+  "desc": "ROR line 11: '!=' -> '<='"
+ },
+ {
+  "id": "Gcd-M26",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 332,
+  "old": "!=",
+  "new": ">=",
+  "line": 11,
+  "desc": "ROR line 11: '!=' -> '>='"
+ },
+ {
+  "id": "Gcd-M27",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 332,
+  "old": "!=",
+  "new": "==",
+  "line": 11,
+  "desc": "ROR line 11: '!=' -> '=='"
+ },
+ {
+  "id": "Gcd-M28",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 332,
+  "old": "!=",
+  "new": "<",
+  "line": 11,
+  "desc": "ROR line 11: '!=' -> '<'"
+ },
+ {
+  "id": "Gcd-M29",
+  "unit": "Gcd",
+  "op": "ROR",
+  "offset": 332,
+  "old": "!=",
+  "new": ">",
+  "line": 11,
+  "desc": "ROR line 11: '!=' -> '>'"
+ },
+ {
+  "id": "Gcd-M30",
+  "unit": "Gcd",
+  "op": "AOR",
+  "offset": 362,
+  "old": "%",
+  "new": "+",
+  "line": 12,
+  "desc": "AOR line 12: '%' -> '+'"
+ },
+ {
+  "id": "Gcd-M31",
+  "unit": "Gcd",
+  "op": "AOR",
+  "offset": 362,
+  "old": "%",
+  "new": "-",
+  "line": 12,
+  "desc": "AOR line 12: '%' -> '-'"
+ },
+ {
+  "id": "Gcd-M32",
+  "unit": "Gcd",
+  "op": "AOR",
+  "offset": 362,
+  "old": "%",
+  "new": "*",
+  "line": 12,
+  "desc": "AOR line 12: '%' -> '*'"
+ },
+ {
+  "id": "Gcd-M33",
+  "unit": "Gcd",
+  "op": "AOR",
+  "offset": 362,
+  "old": "%",
+  "new": "/",
+  "line": 12,
+  "desc": "AOR line 12: '%' -> '/'"
+ },
+ {
+  "id": "Gcd-M34",
+  "unit": "Gcd",
+  "op": "CRP",
+  "offset": 335,
+  "old": "0",
+  "new": "1",
+  "line": 11,
+  "desc": "CRP line 11: '0' -> '1'"
+ },
+ {
+  "id": "Grade-M01",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 98,
+  "old": "<",
+  "new": "<=",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '<='"
+ },
+ {
+  "id": "Grade-M02",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 98,
+  "old": "<",
+  "new": ">=",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '>='"
+ },
+ {
+  "id": "Grade-M03",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 98,
+  "old": "<",
+  "new": "==",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '=='"
+ },
+ {
+  "id": "Grade-M04",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 98,
+  "old": "<",
+  "new": "!=",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '!='"
+ },
+ {
+  "id": "Grade-M05",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 98,
+  "old": "<",
+  "new": ">",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '>'"
+ },
+ {
+  "id": "Grade-M06",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 111,
+  "old": ">",
+  "new": "<=",
+  "line": 5,
+  "desc": "ROR line 5: '>' -> '<='"
+ },
+ {
+  "id": "Grade-M07",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 111,
+  "old": ">",
+  "new": ">=",
+  "line": 5,
+  "desc": "ROR line 5: '>' -> '>='"
+ },
+ {
+  "id": "Grade-M08",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 111,
+  "old": ">",
+  "new": "==",
+  "line": 5,
+  "desc": "ROR line 5: '>' -> '=='"
+ },
+ {
+  "id": "Grade-M09",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 111,
+  "old": ">",
+  "new": "!=",
+  "line": 5,
+  "desc": "ROR line 5: '>' -> '!='"
+ },
+ {
+  "id": "Grade-M10",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 111,
+  "old": ">",
+  "new": "<",
+  "line": 5,
+  "desc": "ROR line 5: '>' -> '<'"
+ },
+ {
+  "id": "Grade-M11",
+  "unit": "Grade",
+  "op": "CRP",
+  "offset": 100,
+  "old": "0",
+  "new": "1",
+  "line": 5,
+  "desc": "CRP line 5: '0' -> '1'"
+ },
+ {
+  "id": "Grade-M12",
+  "unit": "Grade",
+  "op": "CRP",
+  "offset": 113,
+  "old": "100",
+  "new": "101",
+  "line": 5,
+  "desc": "CRP line 5: '100' -> '101'"
+ },
+ {
+  "id": "Grade-M13",
+  "unit": "Grade",
+  "op": "CRP",
+  "offset": 113,
+  "old": "100",
+  "new": "99",
+  "line": 5,
+  "desc": "CRP line 5: '100' -> '99'"
+ },
+ {
+  "id": "Grade-M14",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 220,
+  "old": ">=",
+  "new": "<=",
+  "line": 8,
+  "desc": "ROR line 8: '>=' -> '<='"
+ },
+ {
+  "id": "Grade-M15",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 220,
+  "old": ">=",
+  "new": "==",
+  "line": 8,
+  "desc": "ROR line 8: '>=' -> '=='"
+ },
+ {
+  "id": "Grade-M16",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 220,
+  "old": ">=",
+  "new": "!=",
+  "line": 8,
+  "desc": "ROR line 8: '>=' -> '!='"
+ },
+ {
+  "id": "Grade-M17",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 220,
+  "old": ">=",
+  "new": "<",
+  "line": 8,
+  "desc": "ROR line 8: '>=' -> '<'"
+ },
+ {
+  "id": "Grade-M18",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 220,
+  "old": ">=",
+  "new": ">",
+  "line": 8,
+  "desc": "ROR line 8: '>=' -> '>'"
+ },
+ {
+  "id": "Grade-M19",
+  "unit": "Grade",
+  "op": "CRP",
+  "offset": 223,
+  "old": "90",
+  "new": "91",
+  "line": 8,
+  "desc": "CRP line 8: '90' -> '91'"
+ },
+ {
+  "id": "Grade-M20",
+  "unit": "Grade",
+  "op": "CRP",
+  "offset": 223,
+  "old": "90",
+  "new": "89",
+  "line": 8,
+  "desc": "CRP line 8: '90' -> '89'"
+ },
+ {
+  "id": "Grade-M21",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 257,
+  "old": ">=",
+  "new": "<=",
+  "line": 9,
+  "desc": "ROR line 9: '>=' -> '<='"
+ },
+ {
+  "id": "Grade-M22",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 257,
+  "old": ">=",
+  "new": "==",
+  "line": 9,
+  "desc": "ROR line 9: '>=' -> '=='"
+ },
+ {
+  "id": "Grade-M23",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 257,
+  "old": ">=",
+  "new": "!=",
+  "line": 9,
+  "desc": "ROR line 9: '>=' -> '!='"
+ },
+ {
+  "id": "Grade-M24",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 257,
+  "old": ">=",
+  "new": "<",
+  "line": 9,
+  "desc": "ROR line 9: '>=' -> '<'"
+ },
+ {
+  "id": "Grade-M25",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 257,
+  "old": ">=",
+  "new": ">",
+  "line": 9,
+  "desc": "ROR line 9: '>=' -> '>'"
+ },
+ {
+  "id": "Grade-M26",
+  "unit": "Grade",
+  "op": "CRP",
+  "offset": 260,
+  "old": "80",
+  "new": "81",
+  "line": 9,
+  "desc": "CRP line 9: '80' -> '81'"
+ },
+ {
+  "id": "Grade-M27",
+  "unit": "Grade",
+  "op": "CRP",
+  "offset": 260,
+  "old": "80",
+  "new": "79",
+  "line": 9,
+  "desc": "CRP line 9: '80' -> '79'"
+ },
+ {
+  "id": "Grade-M28",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 294,
+  "old": ">=",
+  "new": "<=",
+  "line": 10,
+  "desc": "ROR line 10: '>=' -> '<='"
+ },
+ {
+  "id": "Grade-M29",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 294,
+  "old": ">=",
+  "new": "==",
+  "line": 10,
+  "desc": "ROR line 10: '>=' -> '=='"
+ },
+ {
+  "id": "Grade-M30",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 294,
+  "old": ">=",
+  "new": "!=",
+  "line": 10,
+  "desc": "ROR line 10: '>=' -> '!='"
+ },
+ {
+  "id": "Grade-M31",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 294,
+  "old": ">=",
+  "new": "<",
+  "line": 10,
+  "desc": "ROR line 10: '>=' -> '<'"
+ },
+ {
+  "id": "Grade-M32",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 294,
+  "old": ">=",
+  "new": ">",
+  "line": 10,
+  "desc": "ROR line 10: '>=' -> '>'"
+ },
+ {
+  "id": "Grade-M33",
+  "unit": "Grade",
+  "op": "CRP",
+  "offset": 297,
+  "old": "70",
+  "new": "71",
+  "line": 10,
+  "desc": "CRP line 10: '70' -> '71'"
+ },
+ {
+  "id": "Grade-M34",
+  "unit": "Grade",
+  "op": "CRP",
+  "offset": 297,
+  "old": "70",
+  "new": "69",
+  "line": 10,
+  "desc": "CRP line 10: '70' -> '69'"
+ },
+ {
+  "id": "Grade-M35",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 331,
+  "old": ">=",
+  "new": "<=",
+  "line": 11,
+  "desc": "ROR line 11: '>=' -> '<='"
+ },
+ {
+  "id": "Grade-M36",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 331,
+  "old": ">=",
+  "new": "==",
+  "line": 11,
+  "desc": "ROR line 11: '>=' -> '=='"
+ },
+ {
+  "id": "Grade-M37",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 331,
+  "old": ">=",
+  "new": "!=",
+  "line": 11,
+  "desc": "ROR line 11: '>=' -> '!='"
+ },
+ {
+  "id": "Grade-M38",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 331,
+  "old": ">=",
+  "new": "<",
+  "line": 11,
+  "desc": "ROR line 11: '>=' -> '<'"
+ },
+ {
+  "id": "Grade-M39",
+  "unit": "Grade",
+  "op": "ROR",
+  "offset": 331,
+  "old": ">=",
+  "new": ">",
+  "line": 11,
+  "desc": "ROR line 11: '>=' -> '>'"
+ },
+ {
+  "id": "Grade-M40",
+  "unit": "Grade",
+  "op": "CRP",
+  "offset": 334,
+  "old": "60",
+  "new": "61",
+  "line": 11,
+  "desc": "CRP line 11: '60' -> '61'"
+ },
+ {
+  "id": "Grade-M41",
+  "unit": "Grade",
+  "op": "CRP",
+  "offset": 334,
+  "old": "60",
+  "new": "59",
+  "line": 11,
+  "desc": "CRP line 11: '60' -> '59'"
+ },
+ {
+  "id": "LeapYear-M01",
+  "unit": "LeapYear",
+  "op": "ROR",
+  "offset": 102,
+  "old": "<",
+  "new": "<=",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '<='"
+ },
+ {
+  "id": "LeapYear-M02",
+  "unit": "LeapYear",
+  "op": "ROR",
+  "offset": 102,
+  "old": "<",
+  "new": ">=",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '>='"
+ },
+ {
+  "id": "LeapYear-M03",
+  "unit": "LeapYear",
+  "op": "ROR",
+  "offset": 102,
+  "old": "<",
+  "new": "==",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '=='"
+ },
+ {
+  "id": "LeapYear-M04",
+  "unit": "LeapYear",
+  "op": "ROR",
+  "offset": 102,
+  "old": "<",
+  "new": "!=",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '!='"
+ },
+ {
+  "id": "LeapYear-M05",
+  "unit": "LeapYear",
+  "op": "ROR",
+  "offset": 102,
+  "old": "<",
+  "new": ">",
+  "line": 5,
+  "desc": "ROR line 5: '<' -> '>'"
+ },
+ {
+  "id": "LeapYear-M06",
+  "unit": "LeapYear",
+  "op": "CRP",
+  "offset": 104,
+  "old": "1",
+  "new": "2",
+  "line": 5,
+  "desc": "CRP line 5: '1' -> '2'"
+ },
+ {
+  "id": "LeapYear-M07",
+  "unit": "LeapYear",
+  "op": "CRP",
+  "offset": 104,
+  "old": "1",
+  "new": "0",
+  "line": 5,
+  "desc": "CRP line 5: '1' -> '0'"
+ },
+ {
+  "id": "LeapYear-M08",
+  "unit": "LeapYear",
+  "op": "ROR",
+  "offset": 211,
+  "old": "==",
+  "new": "<=",
+  "line": 8,
+  "desc": "ROR line 8: '==' -> '<='"
+ },
+ {
+  "id": "LeapYear-M09",
+  "unit": "LeapYear",
+  "op": "ROR",
+  "offset": 211,
+  "old": "==",
+  "new": ">=",
+  "line": 8,
+  "desc": "ROR line 8: '==' -> '>='"
+ },
+ {
+  "id": "LeapYear-M10",
+  "unit": "LeapYear",
+  "op": "ROR",
+  "offset": 211,
+  "old": "==",
+  "new": "!=",
+  "line": 8,
+  "desc": "ROR line 8: '==' -> '!='"
+ },
+ {
+  "id": "LeapYear-M11",
+  "unit": "LeapYear",
+  "op": "ROR",
+  "offset": 211,
+  "old": "==",
+  "new": "<",
+  "line": 8,
+  "desc": "ROR line 8: '==' -> '<'"
+ },
+ {
+  "id": "LeapYear-M12",
+  "unit": "LeapYear",
+  "op": "ROR",
+  "offset": 211,
+  "old": "==",
+  "new": ">",
+  "line": 8,
+  "desc": "ROR line 8: '==' -> '>'"
+ },
+ {
+  "id": "LeapYear-M13",
+  "unit": "LeapYear",
+  "op": "ROR",
+  "offset": 277,
+  "old": "==",
+  "new": "<=",
+  "line": 11,
+  "desc": "ROR line 11: '==' -> '<='"
+ },
+ {
+  "id": "LeapYear-M14",
+  "unit": "LeapYear",
+  "op": "ROR",
+  "offset": 277,
+  "old": "==",
+  "new": ">=",
+  "line": 11,
+  "desc": "ROR line 11: '==' -> '>='"
+ },
+ {
+  "id": "LeapYear-M15",
+  "unit": "LeapYear",
+  "op": "ROR",
+  "offset": 277,
+  "old": "==",
+  "new": "!=",
+  "line": 11,
+  "desc": "ROR line 11: '==' -> '!='"
+ },
+ {
+  "id": "LeapYear-M16",
+  "unit": "LeapYear",
+  "op": "ROR",
+  "offset": 277,
+  "old": "==",
+  "new": "<",
+  "line": 11,
+  "desc": "ROR line 11: '==' -> '<'"
+ },
+ {
+  "id": "LeapYear-M17",
+  "unit": "LeapYear",
+  "op": "ROR",
+  "offset": 277,
+  "old": "==",
+  "new": ">",
+  "line": 11,
+  "desc": "ROR line 11: '==' -> '>'"
+ },
+ {
+  "id": "LeapYear-M18",
+  "unit": "LeapYear",
+  "op": "ROR",
+  "offset": 345,
+  "old": "==",
+  "new": "<=",
+  "line": 14,
+  "desc": "ROR line 14: '==' -> '<='"
+ },
+ {
+  "id": "LeapYear-M19",
+  "unit": "LeapYear",
+  "op": "ROR",
+  "offset": 345,
+  "old": "==",
+  "new": ">=",
+  "line": 14,
+  "desc": "ROR line 14: '==' -> '>='"
+ },
+ {
+  "id": "LeapYear-M20",
+  "unit": "LeapYear",
+  "op": "ROR",
+  "offset": 345,
+  "old": "==",
+  "new": "!=",
+  "line": 14,
+  "desc": "ROR line 14: '==' -> '!='"
+ },
+ {
+  "id": "LeapYear-M21",
+  "unit": "LeapYear",
+  "op": "ROR",
+  "offset": 345,
+  "old": "==",
+  "new": "<",
+  "line": 14,
+  "desc": "ROR line 14: '==' -> '<'"
+ },
+ {
+  "id": "LeapYear-M22",
+  "unit": "LeapYear",
+  "op": "ROR",
+  "offset": 345,
+  "old": "==",
+  "new": ">",
+  "line": 14,
+  "desc": "ROR line 14: '==' -> '>'"
+ },
+ {
+  "id": "LeapYear-M23",
+  "unit": "LeapYear",
+  "op": "AOR",
+  "offset": 205,
+  "old": "%",
+  "new": "+",
+  "line": 8,
+  "desc": "AOR line 8: '%' -> '+'"
+ },
+ {
+  "id": "LeapYear-M24",
+  "unit": "LeapYear",
+  "op": "AOR",
+  "offset": 205,
+  "old": "%",
+  "new": "-",
+  "line": 8,
+  "desc": "AOR line 8: '%' -> '-'"
+ },
+ {
+  "id": "LeapYear-M25",
+  "unit": "LeapYear",
+  "op": "AOR",
+  "offset": 205,
+  "old": "%",
+  "new": "*",
+  "line": 8,
+  "desc": "AOR line 8: '%' -> '*'"
+ },
+ {
+  "id": "LeapYear-M26",
+  "unit": "LeapYear",
+  "op": "AOR",
+  "offset": 205,
+  "old": "%",
+  "new": "/",
+  "line": 8,
+  "desc": "AOR line 8: '%' -> '/'"
+ },
+ {
+  "id": "LeapYear-M27",
+  "unit": "LeapYear",
+  "op": "AOR",
+  "offset": 271,
+  "old": "%",
+  "new": "+",
+  "line": 11,
+  "desc": "AOR line 11: '%' -> '+'"
+ },
+ {
+  "id": "LeapYear-M28",
+  "unit": "LeapYear",
+  "op": "AOR",
+  "offset": 271,
+  "old": "%",
+  "new": "-",
+  "line": 11,
+  "desc": "AOR line 11: '%' -> '-'"
+ },
+ {
+  "id": "LeapYear-M29",
+  "unit": "LeapYear",
+  "op": "AOR",
+  "offset": 271,
+  "old": "%",
+  "new": "*",
+  "line": 11,
+  "desc": "AOR line 11: '%' -> '*'"
+ },
+ {
+  "id": "LeapYear-M30",
+  "unit": "LeapYear",
+  "op": "AOR",
+  "offset": 271,
+  "old": "%",
+  "new": "/",
+  "line": 11,
+  "desc": "AOR line 11: '%' -> '/'"
+ },
+ {
+  "id": "LeapYear-M31",
+  "unit": "LeapYear",
+  "op": "AOR",
+  "offset": 341,
+  "old": "%",
+  "new": "+",
+  "line": 14,
+  "desc": "AOR line 14: '%' -> '+'"
+ },
+ {
+  "id": "LeapYear-M32",
+  "unit": "LeapYear",
+  "op": "AOR",
+  "offset": 341,
+  "old": "%",
+  "new": "-",
+  "line": 14,
+  "desc": "AOR line 14: '%' -> '-'"
+ },
+ {
+  "id": "LeapYear-M33",
+  "unit": "LeapYear",
+  "op": "AOR",
+  "offset": 341,
+  "old": "%",
+  "new": "*",
+  "line": 14,
+  "desc": "AOR line 14: '%' -> '*'"
+ },
+ {
+  "id": "LeapYear-M34",
+  "unit": "LeapYear",
+  "op": "AOR",
+  "offset": 341,
+  "old": "%",
+  "new": "/",
+  "line": 14,
+  "desc": "AOR line 14: '%' -> '/'"
+ },
+ {
+  "id": "LeapYear-M35",
+  "unit": "LeapYear",
+  "op": "CRP",
+  "offset": 207,
+  "old": "400",
+  "new": "401",
+  "line": 8,
+  "desc": "CRP line 8: '400' -> '401'"
+ },
+ {
+  "id": "LeapYear-M36",
+  "unit": "LeapYear",
+  "op": "CRP",
+  "offset": 207,
+  "old": "400",
+  "new": "399",
+  "line": 8,
+  "desc": "CRP line 8: '400' -> '399'"
+ },
+ {
+  "id": "LeapYear-M37",
+  "unit": "LeapYear",
+  "op": "CRP",
+  "offset": 214,
+  "old": "0",
+  "new": "1",
+  "line": 8,
+  "desc": "CRP line 8: '0' -> '1'"
+ },
+ {
+  "id": "LeapYear-M38",
+  "unit": "LeapYear",
+  "op": "CRP",
+  "offset": 273,
+  "old": "100",
+  "new": "101",
+  "line": 11,
+  "desc": "CRP line 11: '100' -> '101'"
+ },
+ {
+  "id": "LeapYear-M39",
+  "unit": "LeapYear",
+  "op": "CRP",
+  "offset": 273,
+  "old": "100",
+  "new": "99",
+  "line": 11,
+  "desc": "CRP line 11: '100' -> '99'"
+ },
+ {
+  "id": "LeapYear-M40",
+  "unit": "LeapYear",
+  "op": "CRP",
+  "offset": 280,
+  "old": "0",
+  "new": "1",
+  "line": 11,
+  "desc": "CRP line 11: '0' -> '1'"
+ },
+ {
+  "id": "LeapYear-M41",
+  "unit": "LeapYear",
+  "op": "CRP",
+  "offset": 343,
+  "old": "4",
+  "new": "5",
+  "line": 14,
+  "desc": "CRP line 14: '4' -> '5'"
+ },
+ {
+  "id": "LeapYear-M42",
+  "unit": "LeapYear",
+  "op": "CRP",
+  "offset": 343,
+  "old": "4",
+  "new": "3",
+  "line": 14,
+  "desc": "CRP line 14: '4' -> '3'"
+ },
+ {
+  "id": "LeapYear-M43",
+  "unit": "LeapYear",
+  "op": "CRP",
+  "offset": 348,
+  "old": "0",
+  "new": "1",
+  "line": 14,
+  "desc": "CRP line 14: '0' -> '1'"
+ },
+ {
+  "id": "Palindrome-M01",
+  "unit": "Palindrome",
+  "op": "ROR",
+  "offset": 107,
+  "old": "==",
+  "new": "!=",
+  "line": 5,
+  "desc": "ROR line 5: '==' -> '!='"
+ },
+ {
+  "id": "Palindrome-M02",
+  "unit": "Palindrome",
+  "op": "ROR",
+  "offset": 266,
+  "old": "<",
+  "new": "<=",
+  "line": 10,
+  "desc": "ROR line 10: '<' -> '<='"
+ },
+ {
+  "id": "Palindrome-M03",
+  "unit": "Palindrome",
+  "op": "ROR",
+  "offset": 266,
+  "old": "<",
+  "new": ">=",
+  "line": 10,
+  "desc": "ROR line 10: '<' -> '>='"
+ },
+ {
+  "id": "Palindrome-M04",
+  "unit": "Palindrome",
+  "op": "ROR",
+  "offset": 266,
+  "old": "<",
+  "new": "==",
+  "line": 10,
+  "desc": "ROR line 10: '<' -> '=='"
+ },
+ {
+  "id": "Palindrome-M05",
+  "unit": "Palindrome",
+  "op": "ROR",
+  "offset": 266,
+  "old": "<",
+  "new": "!=",
+  "line": 10,
+  "desc": "ROR line 10: '<' -> '!='"
+ },
+ {
+  "id": "Palindrome-M06",
+  "unit": "Palindrome",
+  "op": "ROR",
+  "offset": 266,
+  "old": "<",
+  "new": ">",
+  "line": 10,
+  "desc": "ROR line 10: '<' -> '>'"
+ },
+ {
+  "id": "Palindrome-M07",
+  "unit": "Palindrome",
+  "op": "ROR",
+  "offset": 514,
+  "old": "!=",
+  "new": "<=",
+  "line": 15,
+  "desc": "ROR line 15: '!=' -> '<='"
+ },
+ {
+  "id": "Palindrome-M08",
+  "unit": "Palindrome",
+  "op": "ROR",
+  "offset": 514,
+  "old": "!=",
+  "new": ">=",
+  "line": 15,
+  "desc": "ROR line 15: '!=' -> '>='"
+ },
+ {
+  "id": "Palindrome-M09",
+  "unit": "Palindrome",
+  "op": "ROR",
+  "offset": 514,
+  "old": "!=",
+  "new": "==",
+  "line": 15,
+  "desc": "ROR line 15: '!=' -> '=='"
+ },
+ {
+  "id": "Palindrome-M10",
+  "unit": "Palindrome",
+  "op": "ROR",
+  "offset": 514,
+  "old": "!=",
+  "new": "<",
+  "line": 15,
+  "desc": "ROR line 15: '!=' -> '<'"
+ },
+ {
+  "id": "Palindrome-M11",
+  "unit": "Palindrome",
+  "op": "ROR",
+  "offset": 514,
+  "old": "!=",
+  "new": ">",
+  "line": 15,
+  "desc": "ROR line 15: '!=' -> '>'"
+ },
+ {
+  "id": "Palindrome-M12",
+  "unit": "Palindrome",
+  "op": "AOR",
+  "offset": 244,
+  "old": "-",
+  "new": "+",
+  "line": 9,
+  "desc": "AOR line 9: '-' -> '+'"
+ },
+ {
+  "id": "Palindrome-M13",
+  "unit": "Palindrome",
+  "op": "AOR",
+  "offset": 244,
+  "old": "-",
+  "new": "*",
+  "line": 9,
+  "desc": "AOR line 9: '-' -> '*'"
+ },
+ {
+  "id": "Palindrome-M14",
+  "unit": "Palindrome",
+  "op": "AOR",
+  "offset": 244,
+  "old": "-",
+  "new": "/",
+  "line": 9,
+  "desc": "AOR line 9: '-' -> '/'"
+ },
+ {
+  "id": "Palindrome-M15",
+  "unit": "Palindrome",
+  "op": "AOR",
+  "offset": 244,
+  "old": "-",
+  "new": "%",
+  "line": 9,
+  "desc": "AOR line 9: '-' -> '%'"
+ },
+ {
+  "id": "Palindrome-M16",
+  "unit": "Palindrome",
+  "op": "CRP",
+  "offset": 214,
+  "old": "0",
+  "new": "1",
+  "line": 8,
+  "desc": "CRP line 8: '0' -> '1'"
+ },
+ {
+  "id": "Palindrome-M17",
+  "unit": "Palindrome",
+  "op": "CRP",
+  "offset": 246,
+  "old": "1",
+  "new": "2",
+  "line": 9,
+  "desc": "CRP line 9: '1' -> '2'"
+ },
+ {
+  "id": "Palindrome-M18",
+  "unit": "Palindrome",
+  "op": "CRP",
+  "offset": 246,
+  "old": "1",
+  "new": "0",
+  "line": 9,
+  "desc": "CRP line 9: '1' -> '0'"
+ },
+ {
+  "id": "Temperature-M01",
+  "unit": "Temperature",
+  "op": "ROR",
+  "offset": 185,
+  "old": "<",
+  "new": "<=",
+  "line": 7,
+  "desc": "ROR line 7: '<' -> '<='"
+ },
+ {
+  "id": "Temperature-M02",
+  "unit": "Temperature",
+  "op": "ROR",
+  "offset": 185,
+  "old": "<",
+  "new": ">=",
+  "line": 7,
+  "desc": "ROR line 7: '<' -> '>='"
+ },
+ {
+  "id": "Temperature-M03",
+  "unit": "Temperature",
+  "op": "ROR",
+  "offset": 185,
+  "old": "<",
+  "new": "==",
+  "line": 7,
+  "desc": "ROR line 7: '<' -> '=='"
+ },
+ {
+  "id": "Temperature-M04",
+  "unit": "Temperature",
+  "op": "ROR",
+  "offset": 185,
+  "old": "<",
+  "new": "!=",
+  "line": 7,
+  "desc": "ROR line 7: '<' -> '!='"
+ },
+ {
+  "id": "Temperature-M05",
+  "unit": "Temperature",
+  "op": "ROR",
+  "offset": 185,
+  "old": "<",
+  "new": ">",
+  "line": 7,
+  "desc": "ROR line 7: '<' -> '>'"
+ },
+ {
+  "id": "Temperature-M06",
+  "unit": "Temperature",
+  "op": "AOR",
+  "offset": 310,
+  "old": "*",
+  "new": "+",
+  "line": 10,
+  "desc": "AOR line 10: '*' -> '+'"
+ },
+ {
+  "id": "Temperature-M07",
+  "unit": "Temperature",
+  "op": "AOR",
+  "offset": 310,
+  "old": "*",
+  "new": "-",
+  "line": 10,
+  "desc": "AOR line 10: '*' -> '-'"
+ },
+ {
+  "id": "Temperature-M08",
+  "unit": "Temperature",
+  "op": "AOR",
+  "offset": 310,
+  "old": "*",
+  "new": "/",
+  "line": 10,
+  "desc": "AOR line 10: '*' -> '/'"
+ },
+ {
+  "id": "Temperature-M09",
+  "unit": "Temperature",
+  "op": "AOR",
+  "offset": 310,
+  "old": "*",
+  "new": "%",
+  "line": 10,
+  "desc": "AOR line 10: '*' -> '%'"
+ },
+ {
+  "id": "Temperature-M10",
+  "unit": "Temperature",
+  "op": "AOR",
+  "offset": 316,
+  "old": "/",
+  "new": "+",
+  "line": 10,
+  "desc": "AOR line 10: '/' -> '+'"
+ },
+ {
+  "id": "Temperature-M11",
+  "unit": "Temperature",
+  "op": "AOR",
+  "offset": 316,
+  "old": "/",
+  "new": "-",
+  "line": 10,
+  "desc": "AOR line 10: '/' -> '-'"
+ },
+ {
+  "id": "Temperature-M12",
+  "unit": "Temperature",
+  "op": "AOR",
+  "offset": 316,
+  "old": "/",
+  "new": "*",
+  "line": 10,
+  "desc": "AOR line 10: '/' -> '*'"
+ },
+ {
+  "id": "Temperature-M13",
+  "unit": "Temperature",
+  "op": "AOR",
+  "offset": 316,
+  "old": "/",
+  "new": "%",
+  "line": 10,
+  "desc": "AOR line 10: '/' -> '%'"
+ },
+ {
+  "id": "Temperature-M14",
+  "unit": "Temperature",
+  "op": "AOR",
+  "offset": 322,
+  "old": "+",
+  "new": "-",
+  "line": 10,
+  "desc": "AOR line 10: '+' -> '-'"
+ },
+ {
+  "id": "Temperature-M15",
+  "unit": "Temperature",
+  "op": "AOR",
+  "offset": 322,
+  "old": "+",
+  "new": "*",
+  "line": 10,
+  "desc": "AOR line 10: '+' -> '*'"
+ },
+ {
+  "id": "Temperature-M16",
+  "unit": "Temperature",
+  "op": "AOR",
+  "offset": 322,
+  "old": "+",
+  "new": "/",
+  "line": 10,
+  "desc": "AOR line 10: '+' -> '/'"
+ },
+ {
+  "id": "Temperature-M17",
+  "unit": "Temperature",
+  "op": "AOR",
+  "offset": 322,
+  "old": "+",
+  "new": "%",
+  "line": 10,
+  "desc": "AOR line 10: '+' -> '%'"
+ },
+ {
+  "id": "WordCount-M01",
+  "unit": "WordCount",
+  "op": "ROR",
+  "offset": 106,
+  "old": "==",
+  "new": "!=",
+  "line": 5,
+  "desc": "ROR line 5: '==' -> '!='"
+ },
+ {
+  "id": "WordCount-M02",
+  "unit": "WordCount",
+  "op": "CRP",
+  "offset": 290,
+  "old": "0",
+  "new": "1",
+  "line": 10,
+  "desc": "CRP line 10: '0' -> '1'"
+ }
+]

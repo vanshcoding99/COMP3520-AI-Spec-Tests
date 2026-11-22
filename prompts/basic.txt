@@ -1,0 +1,5 @@
+Write JUnit 4 unit tests for the Java class described in the specification below.
+Return one complete Java file named {Unit}Test.java in package bench.
+
+Specification:
+{SPEC}

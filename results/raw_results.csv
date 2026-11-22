@@ -1,0 +1,73 @@
+condition,unit,fault,fault_desc,detected,killing_tests
+basic,ArrayMax,ArrayMax-F1,Initial max is 0: wrong for all-negative arrays,1,"allNegative,extremeValues,maxAtStart,singleElement"
+basic,ArrayMax,ArrayMax-F2,Loop skips the last element,1,maxAtEnd
+basic,ArrayMax,ArrayMax-F3,"Empty array throws ArrayIndexOutOfBoundsException, not IllegalArgumentException",1,emptyThrows
+basic,BankAccount,BankAccount-F1,Withdrawing exact full balance rejected,1,"depositAfterFailedWithdrawWorks,withdrawFullBalanceAllowed"
+basic,BankAccount,BankAccount-F2,Zero deposit accepted,1,"depositZeroThrows,invalidDepositLeavesBalanceUnchanged"
+basic,BankAccount,BankAccount-F3,Insufficient funds throws wrong exception type,1,"depositAfterFailedWithdrawWorks,overdraftLeavesBalanceUnchanged,withdrawFromEmptyAccountThrows,withdrawMoreThanBalanceThrows"
+basic,BinarySearch,BinarySearch-F1,Loop condition misses final candidate,1,"extremeValues,findsEveryElement,findsEveryElementEvenLength,findsFirstAndLast,largeArray,negativeValues,singleElementFound,twoElements"
+basic,BinarySearch,BinarySearch-F2,Upper bound off by one: out-of-bounds for key above max,1,"arrayNotModified,emptyArrayReturnsMinusOne,keyAboveRange,keyInGap,largeArray,singleElementNotFound"
+basic,BinarySearch,BinarySearch-F3,No progress: infinite loop for some missing keys,1,timeout
+basic,BoundedStack,BoundedStack-F1,Full check off by one: ArrayIndexOutOfBoundsException instead of IllegalStateException,1,"capacityOneWorks,failedPushLeavesStackUnchanged,pushBeyondCapacityThrows"
+basic,BoundedStack,BoundedStack-F2,pop does not remove the item,1,"canPushAgainAfterPopWhenFull,capacityOneWorks,fillToCapacity,lifoOrder,negativeAndZeroValues,popAfterEmptiedThrows,popReturnsTopAndRemoves"
+basic,BoundedStack,BoundedStack-F3,Capacity 0 accepted,1,zeroCapacityThrows
+basic,Discount,Discount-F1,Boundary: quantity 10 gets no bulk discount,1,"onlyTenPercentWhenBothConditionsMet,roundsToTwoDecimals,tenPercentAtQuantityTen"
+basic,Discount,Discount-F2,Boundary: subtotal exactly 100 gets no discount,1,fivePercentAtExactly100
+basic,Discount,Discount-F3,Quantity 0 accepted,1,zeroQuantityThrows
+basic,FizzBuzz,FizzBuzz-F1,Check order wrong: 15 returns Fizz,1,multiplesOfFifteen
+basic,FizzBuzz,FizzBuzz-F2,Zero accepted (returns FizzBuzz),1,zeroThrows
+basic,FizzBuzz,FizzBuzz-F3,Multiples of 5 return Fizz,1,multiplesOfFive
+basic,Gcd,Gcd-F1,"Euclid update order wrong: returns the second argument after one step (gcd(12,8) gives 8)",1,"coprimeReturnsOne,largeValues,oneDividesOther,typicalCases,withOne"
+basic,Gcd,Gcd-F2,Negative b not rejected,1,negativeBThrows
+basic,Gcd,Gcd-F3,"gcd(0,0) returns 0 instead of throwing",1,bothZeroThrows
+basic,Grade,Grade-F1,Boundary: 90 graded B,1,aRange
+basic,Grade,Grade-F2,Upper bound not validated: 101 accepted,1,"maxIntThrows,scoreAbove100Throws"
+basic,Grade,Grade-F3,Wrong threshold: 50-59 graded D,1,fRange
+basic,LeapYear,LeapYear-F1,Missing divisible-by-400 rule (2000 treated as non-leap),1,divisibleBy400IsLeap
+basic,LeapYear,LeapYear-F2,Missing divisible-by-100 rule (1900 treated as leap),1,divisibleBy100ButNot400IsNotLeap
+basic,LeapYear,LeapYear-F3,Off-by-one validation: year 0 accepted,1,zeroThrows
+basic,Palindrome,Palindrome-F1,Case-sensitive comparison,1,"digitsAreConsidered,ignoresCase,ignoresPunctuationAndSpaces"
+basic,Palindrome,Palindrome-F2,Punctuation and spaces not ignored,1,"ignoresPunctuationAndSpaces,noLettersOrDigitsIsPalindrome,nonAlphanumericOnlyAroundSingleChar"
+basic,Palindrome,Palindrome-F3,Null returns false instead of throwing,1,nullThrows
+basic,Temperature,Temperature-F1,Integer division 9/5 == 1,1,"absoluteZeroAllowed,bodyTemperature,boilingPoint,fractionalTemperature,largeTemperature,minusFortyIsSameInBothScales,negativeTemperature"
+basic,Temperature,Temperature-F2,Exactly absolute zero rejected,1,absoluteZeroAllowed
+basic,Temperature,Temperature-F3,Subtracts 32 instead of adding,1,"absoluteZeroAllowed,bodyTemperature,boilingPoint,fractionalTemperature,freezingPoint,largeTemperature,minusFortyIsSameInBothScales,negativeTemperature"
+basic,WordCount,WordCount-F1,"Splits on single space only (multiple spaces, tabs miscounted)",1,"multiLineText,multipleSpacesBetweenWords,tabsAndNewlinesSeparateWords"
+basic,WordCount,WordCount-F2,Empty or blank string returns 1,1,"emptyStringIsZero,whitespaceOnlyIsZero"
+basic,WordCount,WordCount-F3,Leading/trailing whitespace not ignored,1,leadingAndTrailingWhitespaceIgnored
+structured,ArrayMax,ArrayMax-F1,Initial max is 0: wrong for all-negative arrays,1,"allNegativeReturnsLeastNegative,largestAtStart,singleElementReturnsThatElement,singleMinValue"
+structured,ArrayMax,ArrayMax-F2,Loop skips the last element,1,largestAtEnd
+structured,ArrayMax,ArrayMax-F3,"Empty array throws ArrayIndexOutOfBoundsException, not IllegalArgumentException",1,emptyArrayThrows
+structured,BankAccount,BankAccount-F1,Withdrawing exact full balance rejected,1,withdrawFullBalanceAllowed
+structured,BankAccount,BankAccount-F2,Zero deposit accepted,1,"depositZeroThrows,failedDepositLeavesBalanceUnchanged"
+structured,BankAccount,BankAccount-F3,Insufficient funds throws wrong exception type,1,"overdrawLeavesBalanceUnchanged,withdrawFromEmptyAccountLeavesZero,withdrawFromEmptyAccountThrows,withdrawOneMoreThanBalanceThrows"
+structured,BinarySearch,BinarySearch-F1,Loop condition misses final candidate,1,"everyElementFoundAtItsIndex,extremeValuesFound,firstElementFound,lastElementFound,singleElementFound,twoElementArray,zeroKeyFound"
+structured,BinarySearch,BinarySearch-F2,Upper bound off by one: out-of-bounds for key above max,1,"emptyArrayReturnsMinusOne,keyAboveRangeNotFound,singleElementKeyLargerNotFound"
+structured,BinarySearch,BinarySearch-F3,No progress: infinite loop for some missing keys,1,timeout
+structured,BoundedStack,BoundedStack-F1,Full check off by one: ArrayIndexOutOfBoundsException instead of IllegalStateException,1,"capacityOneFullAfterOnePush,failedPushLeavesStateUnchanged,failedPushPreservesContents,pushBeyondCapacityThrows"
+structured,BoundedStack,BoundedStack-F2,pop does not remove the item,1,"failedPushPreservesContents,holdsNegativeAndZeroValues,itemsComeOutLifo,popAfterDrainingThrows,popLastItemMakesEmpty,popReturnsAndRemovesTop,pushAllowedAfterPopFromFull"
+structured,BoundedStack,BoundedStack-F3,Capacity 0 accepted,1,zeroCapacityThrows
+structured,Discount,Discount-F1,Boundary: quantity 10 gets no bulk discount,1,"onlyTenPercentWhenBothConditionsHold,quantityTenGetsTenPercent,roundingAfterTenPercentDiscount"
+structured,Discount,Discount-F2,Boundary: subtotal exactly 100 gets no discount,1,"multipleUnitsReachingHundredGetFivePercent,subtotalExactlyHundredGetsFivePercent"
+structured,Discount,Discount-F3,Quantity 0 accepted,1,zeroQuantityThrows
+structured,FizzBuzz,FizzBuzz-F1,Check order wrong: 15 returns Fizz,1,"fifteenReturnsFizzBuzz,thirtyReturnsFizzBuzz"
+structured,FizzBuzz,FizzBuzz-F2,Zero accepted (returns FizzBuzz),1,zeroThrows
+structured,FizzBuzz,FizzBuzz-F3,Multiples of 5 return Fizz,1,"fiveReturnsBuzz,tenReturnsBuzz"
+structured,Gcd,Gcd-F1,"Euclid update order wrong: returns the second argument after one step (gcd(12,8) gives 8)",1,"coprimeNumbersGcdIsOne,divisorIsGcd,gcdOf12And18Is6,gcdOf18And12Is6,gcdWithOneIsOne"
+structured,Gcd,Gcd-F2,Negative b not rejected,1,"negativeBThrows,zeroAWithNegativeBThrows"
+structured,Gcd,Gcd-F3,"gcd(0,0) returns 0 instead of throwing",1,bothZeroThrows
+structured,Grade,Grade-F1,Boundary: 90 graded B,1,score90IsA
+structured,Grade,Grade-F2,Upper bound not validated: 101 accepted,1,"maxIntScoreThrows,score101Throws"
+structured,Grade,Grade-F3,Wrong threshold: 50-59 graded D,1,score59IsF
+structured,LeapYear,LeapYear-F1,Missing divisible-by-400 rule (2000 treated as non-leap),1,"year2000IsLeap,year400IsLeap"
+structured,LeapYear,LeapYear-F2,Missing divisible-by-100 rule (1900 treated as leap),1,"year100IsNotLeap,year1900IsNotLeap,year2100IsNotLeap"
+structured,LeapYear,LeapYear-F3,Off-by-one validation: year 0 accepted,1,yearZeroThrows
+structured,Palindrome,Palindrome-F1,Case-sensitive comparison,1,"ignoresCase,ignoresPunctuationSpacesAndCase,mixedLettersAndDigitsPalindrome"
+structured,Palindrome,Palindrome-F2,Punctuation and spaces not ignored,1,"ignoresPunctuationSpacesAndCase,punctuationOnlyIsPalindrome,singleLetterWithPunctuationIsPalindrome,whitespaceOnlyIsPalindrome"
+structured,Palindrome,Palindrome-F3,Null returns false instead of throwing,1,nullThrows
+structured,Temperature,Temperature-F1,Integer division 9/5 == 1,1,"absoluteZeroAllowed,bodyTemperatureExample,boilingPoint,fractionalResult,justAboveAbsoluteZero,minusForty"
+structured,Temperature,Temperature-F2,Exactly absolute zero rejected,1,absoluteZeroAllowed
+structured,Temperature,Temperature-F3,Subtracts 32 instead of adding,1,"absoluteZeroAllowed,bodyTemperatureExample,boilingPoint,fractionalResult,justAboveAbsoluteZero,minusForty,negativeZero,zeroCelsius"
+structured,WordCount,WordCount-F1,"Splits on single space only (multiple spaces, tabs miscounted)",1,"mixedWhitespaceSeparators,newlinesSeparateWords,tabsSeparateWords,wordsSeparatedByMultipleSpaces"
+structured,WordCount,WordCount-F2,Empty or blank string returns 1,1,"emptyStringReturnsZero,mixedWhitespaceOnlyReturnsZero,spacesOnlyReturnsZero"
+structured,WordCount,WordCount-F3,Leading/trailing whitespace not ignored,1,"leadingAndTrailingWhitespaceIgnored,leadingWhitespaceIgnored"

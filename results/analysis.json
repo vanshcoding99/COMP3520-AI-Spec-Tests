@@ -1,0 +1,25 @@
+{
+  "basic": {
+    "test_methods": 151,
+    "test_lines": 1133,
+    "asserts": 266,
+    "methods_without_assert": 0,
+    "nonequivalent_mutants": 345,
+    "nonequivalent_killed": 345,
+    "mutation_score_nonequiv": 1.0,
+    "mean_killing_tests_per_fault": 4.6,
+    "greedy_min_tests_for_same_kills": 57
+  },
+  "structured": {
+    "test_methods": 208,
+    "test_lines": 1494,
+    "asserts": 236,
+    "methods_without_assert": 0,
+    "nonequivalent_mutants": 345,
+    "nonequivalent_killed": 344,
+    "mutation_score_nonequiv": 0.9971,
+    "mean_killing_tests_per_fault": 6.42,
+    "greedy_min_tests_for_same_kills": 66
+  },
+  "equivalent_mutants": 22
+}

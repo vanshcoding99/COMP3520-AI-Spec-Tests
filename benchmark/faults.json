@@ -1,0 +1,254 @@
+[
+  {
+    "id": "LeapYear-F1",
+    "unit": "LeapYear",
+    "find": "if (year % 400 == 0) {\n            return true;\n        }\n",
+    "replace": "",
+    "desc": "Missing divisible-by-400 rule (2000 treated as non-leap)"
+  },
+  {
+    "id": "LeapYear-F2",
+    "unit": "LeapYear",
+    "find": "if (year % 100 == 0) {\n            return false;\n        }\n",
+    "replace": "",
+    "desc": "Missing divisible-by-100 rule (1900 treated as leap)"
+  },
+  {
+    "id": "LeapYear-F3",
+    "unit": "LeapYear",
+    "find": "if (year < 1) {",
+    "replace": "if (year < 0) {",
+    "desc": "Off-by-one validation: year 0 accepted"
+  },
+  {
+    "id": "Grade-F1",
+    "unit": "Grade",
+    "find": "if (score >= 90) return 'A';",
+    "replace": "if (score > 90) return 'A';",
+    "desc": "Boundary: 90 graded B"
+  },
+  {
+    "id": "Grade-F2",
+    "unit": "Grade",
+    "find": "if (score < 0 || score > 100) {",
+    "replace": "if (score < 0) {",
+    "desc": "Upper bound not validated: 101 accepted"
+  },
+  {
+    "id": "Grade-F3",
+    "unit": "Grade",
+    "find": "if (score >= 60) return 'D';",
+    "replace": "if (score >= 50) return 'D';",
+    "desc": "Wrong threshold: 50-59 graded D"
+  },
+  {
+    "id": "Palindrome-F1",
+    "unit": "Palindrome",
+    "find": "if (Character.toLowerCase(a) != Character.toLowerCase(b)) {",
+    "replace": "if (a != b) {",
+    "desc": "Case-sensitive comparison"
+  },
+  {
+    "id": "Palindrome-F2",
+    "unit": "Palindrome",
+    "find": "            if (!Character.isLetterOrDigit(a)) { i++; continue; }\n            if (!Character.isLetterOrDigit(b)) { j--; continue; }\n",
+    "replace": "",
+    "desc": "Punctuation and spaces not ignored"
+  },
+  {
+    "id": "Palindrome-F3",
+    "unit": "Palindrome",
+    "find": "throw new IllegalArgumentException(\"s must not be null\");",
+    "replace": "return false;",
+    "desc": "Null returns false instead of throwing"
+  },
+  {
+    "id": "Gcd-F1",
+    "unit": "Gcd",
+    "find": "            int t = a % b;\n            a = b;\n            b = t;",
+    "replace": "            a = b;\n            b = a % b;",
+    "desc": "Euclid update order wrong: returns the second argument after one step (gcd(12,8) gives 8)"
+  },
+  {
+    "id": "Gcd-F2",
+    "unit": "Gcd",
+    "find": "if (a < 0 || b < 0) {",
+    "replace": "if (a < 0) {",
+    "desc": "Negative b not rejected"
+  },
+  {
+    "id": "Gcd-F3",
+    "unit": "Gcd",
+    "find": "throw new IllegalArgumentException(\"gcd(0, 0) is undefined\");",
+    "replace": "return 0;",
+    "desc": "gcd(0,0) returns 0 instead of throwing"
+  },
+  {
+    "id": "ArrayMax-F1",
+    "unit": "ArrayMax",
+    "find": "int best = values[0];",
+    "replace": "int best = 0;",
+    "desc": "Initial max is 0: wrong for all-negative arrays"
+  },
+  {
+    "id": "ArrayMax-F2",
+    "unit": "ArrayMax",
+    "find": "i < values.length;",
+    "replace": "i < values.length - 1;",
+    "desc": "Loop skips the last element"
+  },
+  {
+    "id": "ArrayMax-F3",
+    "unit": "ArrayMax",
+    "find": "if (values == null || values.length == 0) {",
+    "replace": "if (values == null) {",
+    "desc": "Empty array throws ArrayIndexOutOfBoundsException, not IllegalArgumentException"
+  },
+  {
+    "id": "BankAccount-F1",
+    "unit": "BankAccount",
+    "find": "if (cents > balanceCents) {",
+    "replace": "if (cents >= balanceCents) {",
+    "desc": "Withdrawing exact full balance rejected"
+  },
+  {
+    "id": "BankAccount-F2",
+    "unit": "BankAccount",
+    "find": "if (cents <= 0) {\n            throw new IllegalArgumentException(\"deposit must be positive\");",
+    "replace": "if (cents < 0) {\n            throw new IllegalArgumentException(\"deposit must be positive\");",
+    "desc": "Zero deposit accepted"
+  },
+  {
+    "id": "BankAccount-F3",
+    "unit": "BankAccount",
+    "find": "throw new IllegalStateException(\"insufficient funds\");",
+    "replace": "throw new IllegalArgumentException(\"insufficient funds\");",
+    "desc": "Insufficient funds throws wrong exception type"
+  },
+  {
+    "id": "FizzBuzz-F1",
+    "unit": "FizzBuzz",
+    "find": "        if (n % 15 == 0) return \"FizzBuzz\";\n        if (n % 3 == 0) return \"Fizz\";\n",
+    "replace": "        if (n % 3 == 0) return \"Fizz\";\n        if (n % 15 == 0) return \"FizzBuzz\";\n",
+    "desc": "Check order wrong: 15 returns Fizz"
+  },
+  {
+    "id": "FizzBuzz-F2",
+    "unit": "FizzBuzz",
+    "find": "if (n < 1) {",
+    "replace": "if (n < 0) {",
+    "desc": "Zero accepted (returns FizzBuzz)"
+  },
+  {
+    "id": "FizzBuzz-F3",
+    "unit": "FizzBuzz",
+    "find": "if (n % 5 == 0) return \"Buzz\";",
+    "replace": "if (n % 5 == 0) return \"Fizz\";",
+    "desc": "Multiples of 5 return Fizz"
+  },
+  {
+    "id": "Temperature-F1",
+    "unit": "Temperature",
+    "find": "return celsius * 9.0 / 5.0 + 32.0;",
+    "replace": "return celsius * (9 / 5) + 32.0;",
+    "desc": "Integer division 9/5 == 1"
+  },
+  {
+    "id": "Temperature-F2",
+    "unit": "Temperature",
+    "find": "if (celsius < ABSOLUTE_ZERO_C) {",
+    "replace": "if (celsius <= ABSOLUTE_ZERO_C) {",
+    "desc": "Exactly absolute zero rejected"
+  },
+  {
+    "id": "Temperature-F3",
+    "unit": "Temperature",
+    "find": "return celsius * 9.0 / 5.0 + 32.0;",
+    "replace": "return celsius * 9.0 / 5.0 - 32.0;",
+    "desc": "Subtracts 32 instead of adding"
+  },
+  {
+    "id": "Discount-F1",
+    "unit": "Discount",
+    "find": "if (quantity >= 10) {",
+    "replace": "if (quantity > 10) {",
+    "desc": "Boundary: quantity 10 gets no bulk discount"
+  },
+  {
+    "id": "Discount-F2",
+    "unit": "Discount",
+    "find": "} else if (subtotal >= 100.0) {",
+    "replace": "} else if (subtotal > 100.0) {",
+    "desc": "Boundary: subtotal exactly 100 gets no discount"
+  },
+  {
+    "id": "Discount-F3",
+    "unit": "Discount",
+    "find": "if (unitPrice < 0 || quantity <= 0) {",
+    "replace": "if (unitPrice < 0 || quantity < 0) {",
+    "desc": "Quantity 0 accepted"
+  },
+  {
+    "id": "BoundedStack-F1",
+    "unit": "BoundedStack",
+    "find": "if (size >= items.length) {",
+    "replace": "if (size > items.length) {",
+    "desc": "Full check off by one: ArrayIndexOutOfBoundsException instead of IllegalStateException"
+  },
+  {
+    "id": "BoundedStack-F2",
+    "unit": "BoundedStack",
+    "find": "        size--;\n        return items[size];",
+    "replace": "        return items[size - 1];",
+    "desc": "pop does not remove the item"
+  },
+  {
+    "id": "BoundedStack-F3",
+    "unit": "BoundedStack",
+    "find": "if (capacity <= 0) {",
+    "replace": "if (capacity < 0) {",
+    "desc": "Capacity 0 accepted"
+  },
+  {
+    "id": "WordCount-F1",
+    "unit": "WordCount",
+    "find": "trimmed.split(\"\\\\s+\")",
+    "replace": "trimmed.split(\" \")",
+    "desc": "Splits on single space only (multiple spaces, tabs miscounted)"
+  },
+  {
+    "id": "WordCount-F2",
+    "unit": "WordCount",
+    "find": "        if (trimmed.isEmpty()) {\n            return 0;\n        }\n",
+    "replace": "",
+    "desc": "Empty or blank string returns 1"
+  },
+  {
+    "id": "WordCount-F3",
+    "unit": "WordCount",
+    "find": "String trimmed = text.trim();",
+    "replace": "String trimmed = text;",
+    "desc": "Leading/trailing whitespace not ignored"
+  },
+  {
+    "id": "BinarySearch-F1",
+    "unit": "BinarySearch",
+    "find": "while (lo <= hi) {",
+    "replace": "while (lo < hi) {",
+    "desc": "Loop condition misses final candidate"
+  },
+  {
+    "id": "BinarySearch-F2",
+    "unit": "BinarySearch",
+    "find": "int hi = sorted.length - 1;",
+    "replace": "int hi = sorted.length;",
+    "desc": "Upper bound off by one: out-of-bounds for key above max"
+  },
+  {
+    "id": "BinarySearch-F3",
+    "unit": "BinarySearch",
+    "find": "                lo = mid + 1;",
+    "replace": "                lo = mid;",
+    "desc": "No progress: infinite loop for some missing keys"
+  }
+]

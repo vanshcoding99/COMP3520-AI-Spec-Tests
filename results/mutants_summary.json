@@ -1,0 +1,20 @@
+{
+  "basic": {
+    "units": 12,
+    "compiled_units": 12,
+    "test_methods": 151,
+    "units_with_false_alarms": 0,
+    "false_alarm_methods": 0,
+    "faults": 367,
+    "faults_detected": 345
+  },
+  "structured": {
+    "units": 12,
+    "compiled_units": 12,
+    "test_methods": 208,
+    "units_with_false_alarms": 0,
+    "false_alarm_methods": 0,
+    "faults": 367,
+    "faults_detected": 344
+  }
+}
